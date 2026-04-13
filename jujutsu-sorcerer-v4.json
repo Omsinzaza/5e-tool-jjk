@@ -4296,7 +4296,7 @@
 		}
 	],
 	"hp": {
-		"average": 119,
+		"average": 116,
 		"formula": "18d8 + 36"
 	},
 	"speed": {
@@ -4362,7 +4362,7 @@
 		{
 			"name": "Cursed Enhanced Body",
 			"entries": [
-				"As long as Kenta has 1 cursed energy or more, he may add 3 to his attack and damage rolls with unarmed strikes or weapons he is proficient with (already applied)."
+				"As long as Kenta has 1 cursed energy or more, he may add 3 to his attack and damage rolls with unarmed strikes or weapons he is proficient with."
 			]
 		},
 		{
@@ -4380,15 +4380,15 @@
 	],
 	"action": [
 		{
-			"name": "Multiattack",
+			"name": "Extra Attack",
 			"entries": [
-				"Kenta makes 3 attacks."
+				"Kenta can attack twice, instead of once, when he takes the Attack action during his turn."
 			]
 		},
 		{
 			"name": "Unarmed Strike",
 			"entries": [
-				"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d10 + 6}) bludgeoning damage."
+				"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 3}) bludgeoning damage."
 			]
 		},
 		{
@@ -4409,11 +4409,62 @@
 				"Kenta causes gravity to bend within 30 ft. of him, causing a medium-sized blue sphere with a 10 ft. circle attraction radius to draw everything towards it for 1 minute. All creatures within this area must make a {@dc 18} Strength saving throw. On a failure, they take {@damage 12d8} force damage, are {@condition restrained} until the beginning of their next turn, and are pulled to an open space closest to the center of the sphere. On a success, they take half as much damage and are not {@condition restrained} or pulled. A creature can retry this saving throw at the beginning of each of their turns. If they succeed, they take half the damage and exit the sphere. If they fail, they remain there without being able to move and retake the damage. Any creatures that enter the sphere's range must also make the Strength saving throw. Kenta can dispel this technique as a free action. He may only have a single Blue active at a time. When Kenta uses this technique in its Maximum Output form, he may spend a bonus action to move the sphere up to 60 feet from its original location. All creatures currently in the sphere are moved with it, and any creatures caught in the sphere's new range must make the saving throw."
 			]
 		},
+    {
+      "name": "Pulse Blue (3 Cursed Energy)",
+      "entries": [
+        "Kenta can choose to fire off your blue in a quick burst, weaponizing its attraction effect for damage rather than utility. As an action for 3 Cursed Energy, you can cast blue, instead firing it as a ranged cursed energy attack roll against a creature within 60 ft of you. This use of blue does half of blue's damage, and does not pull creatures or linger after it has been cast."
+      ]
+    },
 		{
-			"name": "Blue Manipulation (5 Cursed Energy)",
+			"name": "Blue Manipulation",
 			"entries": [
-				"Kenta can precisely manipulate his Blue in order to cast {@spell telekinesis}. The distance Kenta can move anything he has grabbed is 60 ft., his DC for this technique is 18, and a creature that succeeds the saving throw is still moved half as much as it would on a failure. After using Blue Manipulation on his turn, he can immediately use it again as a bonus action."
-			]
+        "Kenta have learned how to use blue to manipulate space more precisely. As an action for an amount of cursed energy depending on the size, Kenta can choose an object or creature within 50 ft., moving it a number of feet equal to his proficiency bonus times 10. If it collides with an object, they both take {@damage 1d12} bludgeoning damage. If it collides with a creature or structure, they both take Collision Damage based on the object's size, making a Dexterity saving throw, taking half as much damage on a success. Any adjustments used to enhance Blue besides effects that increase your damage dice also apply to this (including range increases and Cursed Energy cost reductions). The size categories and their corresponding costs and damage are as follows:",
+        {
+          "type": "table",
+          "colLabels": [
+            "Object Size",
+            "Cursed Energy Cost",
+            "Collision Damage"
+          ],
+          "colStyles": [
+            "col-3",
+            "col-3",
+            "col-6"
+          ],
+          "rows": [
+            [
+              "Tiny",
+              "1 Cursed Energy",
+              "{@damage 1d4} + Kenta's Charisma modifier bludgeoning damage"
+            ],
+            [
+              "Small",
+              "3 Cursed Energy",
+              "{@damage 2d6} + Kenta's Charisma modifier bludgeoning damage"
+            ],
+            [
+              "Medium",
+              "5 Cursed Energy",
+              "{@damage 2d8} + Kenta's Charisma modifier added twice bludgeoning damage"
+            ],
+            [
+              "Large",
+              "8 Cursed Energy",
+              "{@damage 2d10} + Kenta's Charisma modifier added twice bludgeoning damage"
+            ],
+            [
+              "Huge",
+              "10 Cursed Energy",
+              "{@damage 2d12} + Kenta's Charisma modifier added three times bludgeoning damage"
+            ],
+            [
+              "Gargantuan",
+              "12 Cursed Energy",
+              "{@damage 4d12} + Kenta's Charisma modifier added three times bludgeoning damage"
+            ]
+          ]
+        }			
+      ]
 		},
 		{
 			"name": "Red (10 Cursed Energy)",
@@ -14596,276 +14647,6 @@
       ],
       "savingThrowForced": [
         "charisma"
-      ]
-    },
-    {
-      "name": "Kenta Gojo",
-      "isNamedCreature": true,
-      "source": "jujutsukaisen",
-      "page": 0,
-      "size": [
-        "M"
-      ],
-      "type": {
-        "type": "humanoid",
-        "tags": [
-          "human"
-        ]
-      },
-      "alignment": [
-        "C",
-        "G"
-      ],
-      "ac": [
-        {
-          "ac": 19,
-          "from": [
-            "Unarmored Defense"
-          ]
-        }
-      ],
-      "hp": {
-        "average": 273,
-        "formula": "26d8 + 156"
-      },
-      "speed": {
-        "walk": 80
-      },
-      "str": 12,
-      "dex": 18,
-      "con": 16,
-      "int": 10,
-      "wis": 14,
-      "cha": 20,
-      "save": {
-        "dex": "+10",
-        "cha": "+11"
-      },
-      "skill": {
-        "acrobatics": "+10",
-        "perception": "+19 (expertise + cha from six eyes)"
-      },
-      "senses": [
-        "truesight 60 ft. (illuminated vision)"
-      ],
-      "passive": 29,
-      "languages": [
-        "Common"
-      ],
-      "cr": "18",
-      "trait": [
-        {
-          "name": "Cursed Energy",
-          "entries": [
-            "Kenta has 41 cursed energy that he can use to fuel his abilities. He regains 1 CE at the beginning of his turns in lethal combat. His Cursed Energy Save DC is 19 (8 + PB + Cha)."
-          ]
-        },
-        {
-          "name": "Six Eyes",
-          "entries": [
-            "Kenta gains multiple benefits from his eyes:",
-            "Cursed Economy: While wearing eye protection (blindfold/sunglasses), the CE cost of all features is reduced by 6 (PB). When his eyes are uncovered, costs are reduced by 9 (PB + half PB). The minimum cost is always 1 CE.",
-            "Information Overload: If his eyes are uncovered, Kenta gains 1 level of {@condition exhaustion} every minute (max 3), reducing his technique damage die tier by 1 and his CE DC by 1 per level. Covering his eyes for 1 min resets this.",
-            "Perceptive Eyes: He gains advantage on all {@skill Perception} checks and adds his Cha modifier to the roll. He can use Cursed Energy Tracker in a 240 ft. radius, detecting CE without line of sight. The advantage is lost if the eyes are covered.",
-            "Technique Reader & Analyzer: As a free action (eyes uncovered), he can learn a creature's Sorcerer level, CE amount, Unique CE properties, and Innate Technique. He can use a reaction or bonus action to roll an {@skill Arcana} check against an enemy's DC to learn their advanced techniques."
-          ]
-        },
-        {
-          "name": "Semi-Perfect Infinity",
-          "entries": [
-            "Infinity automatically filters out poisons."
-          ]
-        },
-        {
-          "name": "Cursed Strike (1-5 Cursed Energy)",
-          "entries": [
-            "When making an Unarmed Strike, Kenta can add {@damage 1d8} force damage to his attack per CE spent on a hit."
-          ]
-        },
-        {
-          "name": "Cursed Armor (1-5 Cursed Energy)",
-          "entries": [
-            "Kenta can gain 15 Temp HP per CE spent for 1 minute."
-          ]
-        },
-        {
-          "name": "Cursed Weapon Enhancement (1-5 Cursed Energy)",
-          "entries": [
-            "As a free action, Kenta can imbue a weapon for 1 min. Deals extra force damage equal to 3x CE spent."
-          ]
-        },
-        {
-          "name": "Negative Flow / Focused Rage",
-          "entries": [
-            "When under half HP, {@condition frightened}, missing a limb, or in a Deadly encounter, he gains 2 temporary CE at the start of turns (can concentrate to increase to 5)."
-          ]
-        },
-        {
-          "name": "Cursed Energy Concealer",
-          "entries": [
-            "Taking the Hide action conceals his CE traces for 10 minutes."
-          ]
-        },
-        {
-          "name": "50 Meters In 3 Seconds",
-          "entries": [
-            "Kenta has 2 generic reactions per round."
-          ]
-        },
-        {
-          "name": "Strong Body",
-          "entries": [
-            "He reduces all damage taken (except psychic) by 3."
-          ]
-        },
-        {
-          "name": "Taijutsu Sorcery",
-          "entries": [
-            "Once per round, Kenta can make a melee attack with advantage."
-          ]
-        }
-      ],
-      "action": [
-        {
-          "name": "Multiattack",
-          "entries": [
-            "Kenta makes 2 attacks."
-          ]
-        },
-        {
-          "name": "Unarmed Strike",
-          "entries": [
-            "{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@dice 1d10 + 6}) bludgeoning + 6 ({@damage 1d12}) force damage."
-          ]
-        },
-        {
-          "name": "Grade 2 Katana",
-          "entries": [
-            "{@atk mw} {@hit 14} to hit, reach 5 ft., one target. {@h}13 ({@dice 1d10 + 8}) slashing + 17 ({@damage 2d12 + 5}) force damage."
-          ]
-        },
-        {
-          "name": "Cursed Energy Slash (1-5 Cursed Energy)",
-          "entries": [
-            "Requires Katana with Enhancement. Fires a 30ft line, forcing a {@dc 19} Dex Save. {@actSaveFail} Weapon damage + CWE damage{@dice  + 1d8} force per CE spent. {@actSaveSuccess} Half damage."
-          ]
-        },
-        {
-          "name": "Infinity (3 Cursed Energy)",
-          "entries": [
-            "As an action or reaction, for 1 min ({@status Concentration|XPHB}), when targeted by an attack/save from outside his body, Kenta can use a Reaction and 1 CE to roll a {@dice d20}. On a 4 or higher, it automatically fails/misses. He has 10 extra Reactions per round exclusively for Infinity."
-          ]
-        },
-        {
-          "name": "Blue (5 Cursed Energy)",
-          "entries": [
-            "As an action, he erases space within 30 ft, creating a 10 ft radius attraction sphere for 1 min. Creatures must make a Str save ({@dc 19}). {@actSaveFail} {@damage 9d8} force damage, {@condition restrained}, pulled to the center. {@actSaveSuccess} Half damage, no pull."
-          ]
-        },
-        {
-          "name": "Pulse Blue (3 Cursed Energy)",
-          "entries": [
-            "Make a Ranged CE Attack against a target within 60 ft, dealing {@damage 4d8} force damage."
-          ]
-        },
-        {
-          "name": "Blue Manipulation (1-12 Cursed Energy)",
-          "entries": [
-            "As an action or bonus action, pull objects/creatures within 50 ft by up to 50 ft. Collisions deal scaling bludgeoning damage based on size. Uses a contested CE vs Strength check."
-          ]
-        },
-        {
-          "name": "Reversal Red (10 Cursed Energy)",
-          "entries": [
-            "As an action, fires a condensed sphere of repelling force in a 60 ft line or 30 ft radius explosion. Creatures make a Str save ({@dc 19}). {@actSaveFail} {@damage 14d8} force damage and pushed 30 feet. {@actSaveSuccess} Half damage, pushed 15 feet."
-          ]
-        },
-        {
-          "name": "Hollow Technique Purple (20 Cursed Energy)",
-          "entries": [
-            "As an action, combines Blue and Red to erase matter in a 120 ft line, 20 ft wide. Creatures make a Dex save ({@dc 19}). {@actSaveFail} {@damage 20d10} force damage. {@actSaveSuccess} Half damage. Ignores all temporary hit points and resistances."
-          ]
-        },
-        {
-          "name": "Domain Expansion Empty Possibility (30 Cursed Energy)",
-          "entries": [
-            "Reduced to 21 CE when Six Eyes are uncovered. As an action, Kenta creates his domain for 2 minutes. Barrier HP: 1,000 (100 x 5 Cha + 500 Refinement) | Barrier AC: 19 | Refinement: 500. While inside, his Limitless cursed techniques deal an additional 5 damage dice, gain a +5 bonus to DCs (making the {@dc 24}), and a +5 bonus to hit. Limitless Lapse techniques (Blue) cost 0 CE.",
-            "Sure-Hit Effect (Absolute Zero-Point): At the beginning of each round, hostile creatures must make a Constitution saving throw. {@actSaveFail} {@damage 20d12} force damage as the physical form tears itself apart, and {@condition paralyzed}. {@actSaveSuccess} Half damage and speed is reduced to 0."
-          ]
-        }
-      ],
-      "bonus": [
-        {
-          "name": "Taijutsu Sorcery",
-          "entries": [
-            "When taking the Attack action, make one unarmed strike, shove, grapple, or weapon attack."
-          ]
-        },
-        {
-          "name": "Cursed Blast of Blows (3 Cursed Energy)",
-          "entries": [
-            "Immediately after the Attack action, make two unarmed strikes."
-          ]
-        },
-        {
-          "name": "Cursed Patient Defense (3 Cursed Energy)",
-          "entries": [
-            "Take the Dodge action."
-          ]
-        },
-        {
-          "name": "Cursed Wind Step (3 Cursed Energy)",
-          "entries": [
-            "Take the Disengage or Dash action. {@spell Jump|PHB} distance is doubled."
-          ]
-        },
-        {
-          "name": "Infinity Pressure (up to 7 Cursed Energy)",
-          "entries": [
-            "While Infinity is active, Kenta can repel Domain Amplification. Enemies with DA starting their turn within 5ft must make a Str save or be pushed 5ft and knocked {@condition prone} (or take {@dice 1d12} force per CE spent if crushed against a wall)."
-          ]
-        },
-        {
-          "name": "Blue Augmented Speed (up to 5 Cursed Energy)",
-          "entries": [
-            "Increase speed by 10 ft per CE spent (lasts 5 rounds)."
-          ]
-        }
-      ],
-      "reaction": [
-        {
-          "name": "Taijutsu Sorcery Dodge",
-          "entries": [
-            "When taking the Attack action, Kenta can Dodge as a reaction to an attack. Attackers get disadvantage. If they roll a natural 1, Kenta makes a free melee attack against them."
-          ]
-        },
-        {
-          "name": "Cursed Enhanced Body (1-5 Cursed Energy)",
-          "entries": [
-            "Add CE spent as a bonus to a STR, DEX, CON, INT, or WIS saving throw."
-          ]
-        },
-        {
-          "name": "Teleport Technique (1 or 5 Cursed Energy)",
-          "entries": [
-            "Spend 1 CE to teleport up to your movement speed (avoids opportunity attacks). As a reaction for 5 CE, teleport up to your speed to dodge an attack completely (requires a Dex check vs Attack/DC)."
-          ]
-        }
-      ],
-      "senseTags": [
-        "U"
-      ],
-      "actionTags": [
-        "Multiattack"
-      ],
-      "languageTags": [
-        "C"
-      ],
-      "damageTags": [
-        "O"
-      ],
-      "miscTags": [
-        "MW"
       ]
     },
     {
