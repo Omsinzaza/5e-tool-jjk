@@ -4275,12 +4275,12 @@
         "JJK:DE"
       ],
       "entries": [
-        "Domain Expansion is the most supreme technique of any jujutsu user. It is achieved by expanding one's innate domain with cursed energy while using a barrier to construct it inside a separate space. The caster then imbues their cursed technique within the barrier to complete the expansion, allowing them to deploy their ability all throughout the domain.",
+        "Domain Expansion is the most supreme technique of any jujutsu user. It is achieved by expanding one's \"innate domain\" with \"cursed energy\" while using a barrier to construct it inside a separate space. The caster then imbues their \"cursed technique\" within the barrier to complete the expansion, allowing them to deploy their ability all throughout the domain.",
         {
           "type": "entries",
           "name": "Domain Basics",
           "entries": [
-            "All domains are different from one another, varying in their hand signs or techniques. However, they all tend to follow the same base rules unless otherwise stated.",
+            "All domains are different from one another, varying in their \"hand signs\" or techniques. However, they all tend to follow the same base rules unless otherwise stated.",
             {
               "type": "entries",
               "name": "Completing Your Domain",
@@ -4947,15 +4947,16 @@
                   "rows": [
                     [
                       "1-2. Cursed Energy Manipulation.",
-                      "Their general cursed energy manipulation is affected, whenever the creature attempts to utilize cursed energy, they must take a free action their turn to make a DC 15 Check using their Cursed Energy Modifier. On a success, they can utilize cursed energy as normal until the beginning of their next turn. On a failure, the cost of all of their features which expend cursed energy are increased by half of your proficiency bonus (rounded down). This lasts until they use a free action to make the check again."
+                      "Their general cursed energy manipulation is affected, whenever the creature attempts to utilize cursed energy, they must take a free action their turn to make a \"DC 15\" Check using their Cursed Energy Modifier. On a success, they can utilize cursed energy as normal until the beginning of their next turn. On a failure, the cost of all of their features which expend cursed energy are increased by half of your proficiency bonus (rounded down). This lasts until they use a free action to make the check again."
                     ],
                     [
                       "3-4. Barrier Techniques.",
-                      "Unlimited Void damages the part of their brain in charge of Barrier Techniques. Whenever the creature attempts to utilize a Barrier Technique with a cursed energy cost of more than 5, the Barrier Technique will fail, as their their eyes and nose begin to bleed, causing them to take psychic damage equal 1d12 per cursed energy spent on the barrier technique (before reductions)."
+                      "Unlimited Void damages the part of their brain in charge of \"Barrier Techniques\". Whenever the creature attempts to utilize a \"Barrier Technique\" with a cursed energy cost of more than 5, the \"Barrier Technique\" will fail, as their their eyes and nose begin to bleed, causing them to take psychic damage equal 1d12 per cursed energy spent on the barrier technique (before reductions)."
                     ],
                     [
                       "5-6. Innate Techniques.",
-                      "Unlimited Void damages their prefrontal cortex, causing it to partially affect their usage of innate techniques whenever they attempt to inject energy into the technique. Whenever the creature attempts to use their Innate Technique, they must make a Constitution saving throw. On a success, they use the technique as normal. On a failure, any damage it deals, its range, AoE size, as well as its duration are all halved. If a creature possesses multiple innate techniques, this will only affect one of them, as determined by the DM."
+                      "Unlimited Void damages their prefrontal cortex, causing it to partially affect their usage of innate techniques whenever they attempt to inject energy into the technique. Whenever the creature attempts to use their \"Innate Technique\", they must make a Constitution saving throw. On a success, they use the technique as normal. On a failure, any damage it deals, its range, \"AoE\" size, as well as its duration are all halved. If a creature possesses multiple innate techniques, this will only affect one of them, as determined by the DM."
+                    ]
                   ]
                 },
                 "A Cursed Spirit is only affected by this feature for a number of rounds equal to your Charisma modifier."
@@ -4965,10 +4966,10 @@
               "type": "entries",
               "name": "Domain Expansion: Self-Embodiment of Perfection",
               "entries": [
-                "You have studied your powers and have finally learned your most powerful technique. You create a large dimension filled with your body parts, making escaping death almost impossible. At the beginning of each round after casting this Domain, all creatures except you must make a Constitution saving throw. On a failure, you may choose to make them a transfigured creature. On a success, they will take 30d12 necrotic damage. If this reduces them to 0 hit points, they are instantly transformed into Transfigured creatures. The damage of this domain is considered Major Soul Harming.",
-                "When within your domain, your Idle Transfiguration feature can now be used as a cursed energy attack roll, and you may replace attacks from your attack action with it.",
-                "The ability to use Idle Transfiguration as a cursed energy attack roll and the Constitution save and its effects caused by this domain is the sure hit effect of this domain.",
-                "If this domain is used with the 0.2 Second Domain Expansion, if a creature fails the Constitution saving throw, you will instead transfigure a limb that is not the Skull, Neck, Torso, or Jaw."
+                "You have studied your powers and have finally learned your most powerful technique. You create a large dimension filled with your body parts, making escaping death almost impossible. At the beginning of each round after casting this \"Domain\", all creatures except you must make a Constitution saving throw. On a failure, you may choose to make them a transfigured creature. On a success, they will take 30d12 necrotic damage. If this reduces them to 0 hit points, they are instantly transformed into Transfigured creatures. The damage of this domain is considered Major Soul Harming.",
+                "When within your domain, your \"Idle Transfiguration\" feature can now be used as a cursed energy attack roll, and you may replace attacks from your attack action with it.",
+                "The ability to use \"Idle Transfiguration\" as a cursed energy attack roll and the Constitution save and its effects caused by this domain is the sure hit effect of this domain.",
+                "If this domain is used with the 0.2 Second \"Domain Expansion\", if a creature fails the Constitution saving throw, you will instead transfigure a limb that is not the \"Skull, Neck, Torso, or Jaw\"."
               ]
             }
           ]
