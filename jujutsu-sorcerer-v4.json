@@ -4266,10 +4266,718 @@
         "You have also learned how to mix blue and red, creating a purple bolt of cursed energy that destroys everything in its path. As a rooting distracting action (which cannot be reduced),(S-2) you begin concentrating as if concentrating on a spell. If you successfully maintain concentration until the beginning of your next turn, as an action (S-1) for 20 Cursed Energy and 100 Hit Points from your Reverse Cursed Technique pool, you may end your concentration, and force every creature in a 15-foot wide 200-foot long line to make a Dexterity saving throw at disadvantage. On a failure, they take {@damage 30d12} force damage. On a successful save, they take half damage and do not take the additional effects. Objects within the area that aren’t being worn or carried also take this damage. At 17th level, this deals {@damage 50d12} force damage. At 20th level, this deals {@damage 60d12} force damage.",
         "This counts as an extension technique for the purposes of other features."
       ]
+    },
+    {
+      "name": "Domain Expansion",
+      "source": "jujutsukaisen",
+      "page": 1,
+      "featureType": [
+        "JJK:DE"
+      ],
+      "entries": [
+        "Domain Expansion is the most supreme technique of any jujutsu user. It is achieved by expanding one's innate domain with cursed energy while using a barrier to construct it inside a separate space. The caster then imbues their cursed technique within the barrier to complete the expansion, allowing them to deploy their ability all throughout the domain.",
+        {
+          "type": "entries",
+          "name": "Domain Basics",
+          "entries": [
+            "All domains are different from one another, varying in their hand signs or techniques. However, they all tend to follow the same base rules unless otherwise stated.",
+            {
+              "type": "entries",
+              "name": "Completing Your Domain",
+              "entries": [
+                "Over the course of a long rest, a creature with sufficient knowledge of Domain Expansion may attempt to complete their understanding and manifest their own. This process is often likened to confronting one's innermost self—what lies beyond the veil of the soul. As a result, this trial is both mentally and spiritually demanding, and only those with extreme focus and emotional clarity may succeed. When training to complete your domain you may choose one of the two between a Lethal and a Non-Lethal Domain, this determines your training difficulty as shown below:",
+                {
+                  "type": "entries",
+                  "name": "Completing A Lethal Domain",
+                  "entries": [
+                    "Over the course of a long rest, you may make a DC 20 Intelligence (Arcana) check and Constitution saving throw, and a DC 25 Charisma saving throw. If you succeed in all three, you will learn Domain Expansion. If you fail any one of the checks or saves, you must wait until the next long rest to attempt learning this again."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Completing A Non-Lethal Domain",
+                  "entries": [
+                    "Over the course of a long rest, you may make a DC 25 Intelligence (Arcana) check and two DC 20 Charisma saving throws. If you succeed in all three, you will learn Domain Expansion. If you fail any one of the checks or saves, you must wait until the next long rest to attempt learning this again."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Assisted Development",
+                  "entries": [
+                    "If you are learning or being taught by a creature that possesses Domain Expansion and is knowledgeable enough to teach it, you may instead roll the Arcana check with Charisma instead of Intelligence and may roll one of the saving throws with advantage."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Rapid Development",
+                  "entries": [
+                    "If you possess a great talent for learning and developing skills, (such as by showing an impressive aptitude for learning, or possessing the Jujutsu Genius feat.) your DM may instead allow you to roll to learn Domain Expansion over the course of a short rest, or even shorter period of time."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Expanding Your Domain",
+              "entries": [
+                "All domains require a specific hand sign for its expansion to be activated, taking a Full Turn Action to activate. All domains cost 30 Cursed Energy unless specified, and traps all creatures of your choice within range, within your barrier for 1 minute. The insides of a domain expansion varies from user to user, since it's like showing your soul to your opponents. Outside of your domain, it's appearance is of a giant black sphere floating in the air. The properties of domain expansions, such as range, damage, and other various effects also vary and should be defined upon creation. Additionally when casting the domain, the caster may send creatures a number of ft away from them equal to the casters Charisma modifier x 10, if the creature is a 0 Cursed Energy Heavenly Restriction they cannot be effected by this, furthermore, you cannot use this if someone is using a reaction to domain clash with you",
+                {
+                  "type": "inset",
+                  "name": "Design Note",
+                  "entries": [
+                    "Though the properties of these domains vary, the radius should always be at least 10 ft and should be around 50-75 ft at max. Work with your DM to find a size that's acceptable."
+                  ]
+                },
+                "All creatures outside are pushed to the edge of the barrier. They receive 1d4 bludgeoning damage per object they collided with as the domain pushed them. In case the domain forces them against a wall, they must start holding their breath until the domain is closed or shrunk.",
+                "This barrier cannot be moved through, regardless of the method of movement (walking, burrowing, flying, teleporting, etc.). You can deactivate your Domain Expansion at will (no action required)."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Cursed Technique Bonus",
+              "entries": [
+                "While inside your domain is where your techniques are at their strongest. While inside your domain, your cursed techniques and domain damage if any have additional dice equal to your Charisma modifier, gain a +5 bonus to their DCs and a +5 bonus to hit."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Technique Burnout",
+              "entries": [
+                "Even if the barrier or the environment aren't fully formed, casting domain expansion will cause the user's innate technique to become unstable for a short time afterward. Right after ending your domain expansion, roll a d10 + 5. You will enter Technique Burnout for a number of rounds equal to the amount rolled.",
+                "During this time, you gain 2 levels of exhaustion, and your innate technique becomes very difficult to use. All active Innate Technique features such as active durations, effects, or summoned entities are ended. In order to use any of your techniques, you must pay Cursed Energy equal to the cost of the feature (before reductions) alongside its regular cost and you must make a DC 30 Constitution saving throw. On a failure, your technique fails and you lose the cursed energy spent trying to make it work. On a success, the technique comes out, but any damage it deals, its range, Area of Effect size, as well as its duration are all halved. Domain Expansion is not able to be forced in this way.",
+                "When you enter Technique Burnout, you can choose to attempt to maintain any active techniques that would normally be ended, by using the regular technique burnout saving throw and effects to continue an Innate Technique feature, but all rules of Technique Burnout still apply.",
+                "If you are a Cursed Spirit the DC is 20 instead of 30."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Sure Hit",
+              "entries": [
+                "Domains that are expanded to be lethal are constructed within a barrier imbued with the user's innate cursed technique. The caster's abilities are amplified and any cursed techniques deployed within the domain are guaranteed to hit their target. While inside your domain radius, all of your cursed techniques from the imbued innate technique will be affected by the sure hit feature. No matter what your cursed energy attack roll is, it will be considered a hit. Creatures will automatically count as having failed saving throws for your cursed technique for the purposes of dealing damage (though not for conditions or additional effects). Additionally, the range of any imbued cursed technique feature is expanded to cover the entire domain, even if it is normally touch range. Finally any feature which negates, reduces, or avoids attacks, saving throws, damage, or conditions do not work against a feature affected by this unless it specifically states otherwise.",
+                {
+                  "type": "entries",
+                  "name": "Sure Hit Effect",
+                  "entries": [
+                    "Domains also have a passive effect which they apply called the sure hit effect, if this effect inflicts damage or conditions the domain is considered Lethal, if it doesn't it is considered Non-Lethal.",
+                    "Lastly, lethal sure hit effects require a Saving Throw or an Attack Roll to generally happen at the beginning of each round after they are cast. A Domain Expansion's sure hit effect is usually listed at the end of the Domain's mechanics."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Domain Refinement",
+          "entries": [
+            "As every technique, Domain Expansion gets better with refinement and specializing. Being the ultimate Technique of a Jujutsu Sorcerer, the skill ceiling for a Domain Expansion is quite high. Refining one's barrier technique as well as skill in deploying one can be the decisive factor in a Jujutsu battle.",
+            {
+              "type": "entries",
+              "name": "Refinement Points",
+              "entries": [
+                "The longer you refine your domain, the more its refinement points will grow. You will start out with 1 refinement point, which defines diverse things about your domain. Your refinement limit is 1000 refinement points, only the elite of the elite have ever reached said point."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Refinement Benefits",
+              "entries": [
+                "The more you refine your domain, the more versatile you can make it. Depending on your refinement points, you will gain the following benefits:",
+                {
+                  "type": "table",
+                  "caption": "Refinement Benefits",
+                  "colLabels": [
+                    "Benefit",
+                    "Description",
+                    "Refinement Points Needed"
+                  ],
+                  "colStyles": [
+                    "col-2 text-center",
+                    "col-7",
+                    "col-3 text-center"
+                  ],
+                  "rows": [
+                    [
+                      "Domain Durability",
+                      "Your domain will increase in its durability the more refined it is. Your domain hit points are increased by 1 for every refinement point you have.",
+                      "1+"
+                    ],
+                    [
+                      "Technique Efficiency",
+                      "With your cursed technique already infused into your barrier using it becomes almost effortless to you. You may choose to reduce the cost of your lapse technique to 0 while you cast it inside your domain.",
+                      "100"
+                    ],
+                    [
+                      "Quicker Expansion",
+                      "With lots of training, you have learned how to use your domain hand signs with more efficiency. Your domain now costs an action instead of a full turn action.",
+                      "200"
+                    ],
+                    [
+                      "Increased Potency",
+                      "You manage to increase the speed in which you imbue your technique into your barrier. In addition to happening whenever the Domain specifies, your sure-hit effect will also activate as soon as you open your Domain.",
+                      "300"
+                    ],
+                    [
+                      "Enhanced Technique Efficiency",
+                      "With your domain's enhanced potency, the imbued technique's potency is further enhanced. While within your domain, you now reduce the cursed energy cost of your Extension techniques by half of your proficiency bonus(rounded up), to a minimum of 1.",
+                      "400"
+                    ],
+                    [
+                      "Lasting Domain",
+                      "With great practice, you have learned how to make your domain last for far longer than it normally would. Your domain now lasts for 2 minutes instead of 1.",
+                      "500"
+                    ],
+                    [
+                      "0.2 Domain Expansion",
+                      "You have learned how to expand your domain so quickly that almost no one can react to it. As part of opening your domain, you can make it last only until the end of your turn. The cost for this domain expansion is halved, and creatures caught inside it must make a Dexterity saving throw. On a failure reacting to this domain takes double the amount of reactions it normally would, while on a success they can react as normal. This save is made at disadvantage unless the creature has a higher Dexterity score than your Charisma score. When opening your domain this way, all creatures inside it will be targeted by its effects, you don't have the option to choose. Any of your Domain Expansion's effects that would happen at the start of any creature's turn, be it yours or another creature's, happens immediately when you expand your domain this way.",
+                      "600"
+                    ],
+                    [
+                      "Efficient Expansions",
+                      "It is no secret that opening and maintaining a domain is a very complicated job, requiring lots of cursed energy quantity, practice and refinement. You have refined this with training, reducing your domain expansion cost by your Charisma modifier. In addition, you only gain 1 level of exhaustion after your domain is over and the DC to use your Technique while in Burnout is reduced to 25. If you are a Cursed Spirit it is reduced to 15.",
+                      "700"
+                    ],
+                    [
+                      "Durable Barrier",
+                      "Your domain barrier has become hard and quite unbreakable, making escape or forced entry almost impossible. Your domain will gain immunity to non-magical damage from both sides, however it will still be resistant to all damages from the inside and vulnerable to all damages from the outside. In addition, your domain's refinement points are doubled when calculating your domain's hit points.",
+                      "800"
+                    ],
+                    [
+                      "Domain Superiority",
+                      "Your domain is approaching the absolute peak of refinement, a realm where even the smallest imperfections can spell doom. The refinement thresholds which determine how long it takes you to destroy another domain in a clash are halved.",
+                      "900"
+                    ],
+                    [
+                      "Mastered Domain",
+                      "You have reached the pinnacle of Jujutsu, mastering domain expansion. You have mastered your domain hand signs, and may expand your domain as a bonus action instead of an action. You may reduce your domain expansion's cost by your proficiency bonus, and while inside the domain techniques that use an action can now be used as a bonus action, and techniques that take a bonus action can now be used as a free action. In addition, your domain now lasts for 3 minutes.",
+                      "1000"
+                    ]
+                  ]
+                },
+                "Additionally, if you have the Reverse Cursed Technique Mastery Boon, you gain the following feature:",
+                {
+                  "type": "entries",
+                  "name": "Burnout Recovery",
+                  "entries": [
+                    "You have realized the complicated issue with Technique Burnout can be solved in a very simple fashion. You only need to substitute your brain for a new one!",
+                    "Whilst under the effects of Technique Burnout, you can expend 8 cursed energy as a bonus action to damage your brain with cursed energy, roughly where your innate technique is most predominantly etched, dealing 30d12 force damage to yourself, which cannot be reduced in any way. Once you have healed the damage taken by using the Reverse Cursed Technique, starting at the beginning of the next round, you will regain your Cursed Technique and remove the exhaustion gained from burning out.",
+                    "After you have used this feature, the next time you attempt to use your Domain Expansion or something with equal strain on your brain, you must succeed on a DC 20 Constitution saving throw. On a success, you will be able to carry out the action, such as properly expanding your Domain Expansion. On a failure, you will suffer serious stress to your brain, being unable to expand your domain or complete the action, and taking 20d8 force damage, which cannot be reduced in any way.",
+                    "The Constitution saving throw DC increases by 5 for every success and returns to its original DC at the end of a long rest. Once the DC reaches 40, you become unable to pass the Constitution saving throw, reaching your limit."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Amplification",
+              "entries": [
+                "An advanced and unique technique, allowing you to cover yourself in your domain without imbuing a technique into the domain. As an action for up to half of your level(rounded up) in cursed energy, you can cover your body to \"wear\" your domain in order to neutralize cursed techniques for 1 minute. Once activated, you automatically dampen any defensive technique, offensive technique, and you can bypass barriers such as infinity and defensive innate techniques. While active, you gain a damage reduction to Innate Techniques equal to the amount spent times 10. In addition, conditions and effects from Innate Techniques are negated against you, unless they possess an original cost (before reductions) higher than the amount spent on Amplification, or are under Maximum Output. You can dismiss Domain Amplification as a bonus action. Even if you dismiss it, for the minute you can reactivate it as a bonus action without spending the cursed energy again. Domain Amplification works on contact with your body, and as such ranged attacks and your features that do not make physical contact will not gain the benefits of Domain Amplification. You cannot use Domain Amplification while your Domain Expansion is active unless you have the Pinnacle of Manipulation Boon.",
+                "You must have a complete domain in order to use Domain Amplification.",
+                "When you activate amplification, and while it is active, you cannot use your Innate Technique, and any active durations or effects will be stopped and interrupted. You may instead choose to maintain active durations and effects from your innate technique, instead attempting to 'pause' it while amplification is active. At the beginning of your turns while amplification is active, you must make a DC 20 Charisma saving throw. On a success, your technique is 'paused' successfully, rather than being interrupted. On a failure, the technique is ended and interrupted as normal."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Learning Domain Amplification",
+              "entries": [
+                "Over the course a long rest, a creature with knowledge of domain amplification and how it works may make a series of three DC 20 Intelligence (Arcana) checks. If you succeed all three, you will learn Domain Amplification. If you fail any one of the checks, you must wait until the next long rest to attempt learning amplification again.",
+                {
+                  "type": "entries",
+                  "name": "Amplification Innovation",
+                  "entries": [
+                    "If you do not possess knowledge of domain amplification and its inner workings, you may attempt to develop it for yourself, making the normal Intelligence (Arcana) checks, but instead rolling them with disadvantage."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Assisted Amplification",
+                  "entries": [
+                    "If you are learning or being taught by a creature that possesses domain amplification, you may instead roll the Arcana checks with Charisma instead of Intelligence."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Improvised Amplification",
+                  "entries": [
+                    "If you possess a great talent for learning and developing skills, (such as by showing an impressive aptitude for learning, or possessing the Jujutsu Genius feat.) your DM may instead allow you to roll to learn amplification over the course of a short rest, or even shorter period of time."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ways of Refinement",
+              "entries": [
+                "There are multiple ways of refining your domain, from training with yourself to clashing with other people's domains. Down below is to list on how to gain refinement points:",
+                {
+                  "type": "table",
+                  "caption": "Ways of Refinement",
+                  "colLabels": [
+                    "Method",
+                    "Description",
+                    "Refinement Points Gained"
+                  ],
+                  "colStyles": [
+                    "col-2 text-center",
+                    "col-7",
+                    "col-3 text-center"
+                  ],
+                  "rows": [
+                    [
+                      "Training",
+                      "Probably the slowest method, but every little progress counts. Once per day, you can spend 5 cursed energy to refine your domain. This Cursed Energy can only be regained the next day. Although this method has a flaw, which is that you can only refine your domain alone so much. Upon reaching 500 refinement, you can no longer use this method to refine your domain.",
+                      "1"
+                    ],
+                    [
+                      "Unstoppable Power",
+                      "Countermeasures were created against domain expansions for protection, but even those aren't completely reliable against the most powerful domains. Whenever your domain breaks or overcomes a domain countermeasure from a hostile creature, it gains refinement depending on if it was Hollow Wicker Basket, Falling Blossom Emotion or Simple Domain.",
+                      "1, 2 and 4 respectively"
+                    ],
+                    [
+                      "Domain Casualties",
+                      "One of the quicker methods of refining your domain is to destroy opponents with your cursed techniques while inside it. If you reduce a hostile creature to 0 hit points while it's inside your domain expansion, you will gain refinement points. The refinement points are only gained if the creature's CR was at least half of your Jujutsu Sorcerer level(rounded up).",
+                      "5 per creature"
+                    ],
+                    [
+                      "Domain Supremacy",
+                      "The best form to refine your domain is to just subjugate another one with your own. If you win in a domain clash, you'll gain refinement points from your domain superiority. You may only benefit from this once per singular domain.",
+                      "30"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Domain Properties",
+          "entries": [
+            "Internal volume, creation speed, barrier parameters, it is by finding a unique blend of these and other properties that every sorcerer can create their own domain; however, these properties are not immutable, and those extremely skilled with their domain can alter them on the fly.",
+            {
+              "type": "entries",
+              "name": "Barrier Movement (450 Refinement)",
+              "entries": [
+                "You've now come to the realization that your domain need not be a static entity once expanded. At the beginning of your turn while your domain expansion is active you may choose to move the domain up to 120 feet in any direction. The relative positions of creatures inside the domain do not change due to the movement. This feature cannot be used by a barrierless domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Sure-Hit Effect Programming (600 Refinement)",
+              "entries": [
+                "You have grasped a complicated barrier technique to narrow who is affected by your sure hit effect. When you expand your Domain, instead of your sure hit effect targeting all creatures in the Domain, you can set it to have specified conditions, such as all but certain specified creatures, or only one specified creature. This will last for the duration of the Domain. During a Domain Clash, the sure hit not effecting a creature will result in them being afflicted by the opposing sure hit (if it also is targeting them). For example, if you choose for your sure hit effect to omit one creature, and clash with a domain that targets all creatures within it, then the creature you omitted will be targeted by the sure hit, even during the clash. If you possess Soul Outline Awareness, you can even differentiate souls within bodies (that you are aware of) for your sure hit to target.",
+                "Some Domain Expansion Examples such as Unlimited Void have their own conditions for creatures not being effected by their sure hit, and cannot utilize this technique."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Barrier Resistance (750 Refinement)",
+              "entries": [
+                "The stronger is the barrier of a domain on the inside, the weaker it is on the outside. You have realized this, and have found ways to go around it. As part of expanding your domain, you may decide if you want to make your barrier have vulnerability on the inside in exchange for it taking half damage from all damage on the outside. When using this technique, a creature on the inside of the domain no longer must find a weak spot to damage its barrier, all attacks and effects that would hit the barrier will damage it. This resistance works against the sure-hit effect of another domain attacking your domain from the outside."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Barrier Entry (800 Refinement)",
+              "entries": [
+                "You've become aware that it's possible to allow some things into your domain while still denying others. As a free action while your domain is active you may alter the barrier, deciding one thing that may pass through your barrier unimpeded. For example, you could allow living things to enter and leave your domain as they please while keeping non-living things trapped. This feature cannot be used to stop creatures from leaving a barrierless domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Barrier Enlargement (850 Refinement)",
+              "entries": [
+                "You've now learned that by stretching your barrier thin you can massively increase its range, though at the cost of durability. As a bonus action while your domain is active you can spend cursed energy up to a maximum of your Charisma modifier, increasing your domain's radius by 20 feet per point spent. You choose whether creatures that would be caught by the new radius are pushed to the new edge of the domain, as per normal domain expansion rules, or enter the domain. While enlarged in this way the maximum and current health of the barrier is reduced by three times the amount of feet the range increased. This lasts until the end of the domain or until the range is changed again by another feature. This feature cannot be used by a barrierless domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Barrier Compression (950 Refinement)",
+              "entries": [
+                "You have found a method to make your domain take up less space which reinforces the barrier. As a bonus action while your domain is active, you can spend 5 cursed energy to compress it, making the outside become a small circle of 5ft. Inside however, it will have the same size. While compressed in this way your barrier gains a damage reduction equal to 30 times your Charisma modifier. This damage reduction works against the sure-hit effect of another domain attacking your domain from the outside. If this feature is used on a barrierless domain, damage your domain would deal, if any, is increased by half that much instead. This lasts until the end of the domain."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Breaking a Domain",
+          "entries": [
+            "Although Domain Expansion is an extremely powerful and refined technique that only the highest graded sorcerers possess, it can still be broken with enough force.",
+            {
+              "type": "entries",
+              "name": "Barrier Hit Points",
+              "entries": [
+                "Your domain barrier has immense durability, being able to resist even the most damaging attacks. However, cursed imbued attacks can actually pierce through your barrier, despite not being very effective unless done from outside. Your domain barrier has an amount of hit points equal to 100 times your Charisma modifier. Your barrier AC is equal to your cursed energy DC. Your domain barrier cannot take psychic damage. A domain barrier takes half damage from all sources from the inside, and has vulnerability to damage from the outside."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Clashes With Three or More Domains",
+              "entries": [
+                "Usually when clashing with another creature the barriers outside are considered stable; however, when 3 or more creatures start a domain clash the barriers outside become unstable, and even more fragile as a result. If a creature enters the area of a domain clash with 3 or more domains or attacks the barrier of such a clash, the barrier and all domains involved immediately shatter as the clash automatically ends, sending all creatures clashing into burnout as their domains end simultaneously."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Barrier's Edge",
+              "entries": [
+                "Due to Domain Expansion creating an extradimensional space, locating its actual boundaries is of extreme difficulty. The DM determines where in the Domain the Barrier's edge actually is, as it can technically be anywhere in the domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "From Inside",
+              "entries": [
+                "Breaking a barrier from the inside is almost impossible, even if you do find the boundary of the barrier you'll still be targeted by the domains' constant effects. To break a domain from the inside, you must find the boundary first by taking the search action and making a DC 25 + 1 for every 50 refinement the domain has, Arcana check. On a failure, the target cannot find the edge. On a success you will find the domain's edge, now being able to target it for your attacks. You can use Charisma for the Arcana check instead of Intelligence. The barrier's AC is equal to the domain caster's cursed energy DC.",
+                "In addition, any creature that has external knowledge of the barrier, such as seeing it from the outside then entering the Domain Expansion, will know where the Barrier's edge is."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "From Outside",
+              "entries": [
+                "While breaking a barrier from inside is nearly impossible, breaking from outside is a much easier task. You may target the domain for your attacks. It automatically fails any saving throws, and it is vulnerable to every kind of damage you deal but psychic damage."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Forming a Hole",
+              "entries": [
+                "Sometimes, even though it may seem disadvantageous, you can forcefully enter a domain expansion by making your own entrance, generally a hole of some sorts. After you have reached at least 1/3rd of the barrier's maximum hit points, you can take an action to make a Strength or Charisma saving throw to forcefully open the domain. On a failure, the domain won't have a hole on it. On a success, you will form a 10ft. by 10ft. hole in the domain that allows you and any creatures to enter inside the domain. The moment any creature enters the domain they will suffer the effects of the sure-hit. You may also use this feature from the inside of a Domain to form a hole that leads you to the outside, but the DC is affected by the increase in Cursed Energy DC that is provided by Domain Expansions."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Forming a Hole Using a Domain",
+              "entries": [
+                "Forming a Weak Spot is a daunting task, but this task becomes somewhat easier when using a Domain to do so. As part of expanding your Domain if you know where the barrier's edge is and are within 10 ft. of it, you may choose to start concentration to open a hole in the opponent's domain. When you do so, you make a Charisma saving throw against the opponent's Cursed Energy DC. On a success, you will form a 5 ft. square hole in the domain that allows people on either side of the domain to pass through, and it lasts as long as you keep concentrating. On a failure, a hole is not opened. You can take an Action to remake this saving throw. For every 100 Refinement that the target domain has over your own, the DC to create a hole increases by +2.",
+                "Much like everything else, performing this task becomes more difficult while inside of a Domain. While trying to open a hole with your Domain from the inside of an enemy's Domain you must remain still, and when you take damage you must make Constitution saving throws to maintain concentration on forming the hole as if you were concentrating on a spell. The sure-hit effect and sure-hit feature of both domains are negated during this process.",
+                "Opening a hole inside of a Domain typically doesn't go unnoticed. You automatically know when a hole has been formed in your Domain."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Domain Battle",
+          "entries": [
+            "Two domains expanding at the same time cause a domain clash, a battle solely defined by who has the most refined domain and the most talent as a sorcerer.",
+            {
+              "type": "entries",
+              "name": "Domain Clash",
+              "entries": [
+                "Once a creature expands their domain, you may use your reaction to expand your own domain as well. You may also cast your domain on your own turn to begin clashing. The domain battle will be defined by the one with the most refinement points, being the defining factor in deciding the winner. However, even if you do have refinement points to destroy the opposing domain it will take a number of rounds equal to the amount of refinement points that you have above the opponent's domain. See the table below to see how much rounds it takes:",
+                {
+                  "type": "table",
+                  "caption": "Domain Clash Rounds",
+                  "colLabels": [
+                    "Refinement Points Above",
+                    "Rounds Needed To Overlap"
+                  ],
+                  "colStyles": [
+                    "col-6 text-center",
+                    "col-6 text-center"
+                  ],
+                  "rows": [
+                    [
+                      "20",
+                      "9"
+                    ],
+                    [
+                      "40",
+                      "8"
+                    ],
+                    [
+                      "60",
+                      "7"
+                    ],
+                    [
+                      "80",
+                      "6"
+                    ],
+                    [
+                      "100",
+                      "5"
+                    ],
+                    [
+                      "120",
+                      "4"
+                    ],
+                    [
+                      "140",
+                      "3"
+                    ],
+                    [
+                      "160",
+                      "2"
+                    ],
+                    [
+                      "180",
+                      "1"
+                    ],
+                    [
+                      "200",
+                      "0"
+                    ]
+                  ]
+                },
+                "While on the domain clash, the sure-hit effect and sure-hit feature of both domains will be negated. The domain expansion's barriers will combine, overlapping into each other's spaces. Right after you break the domain, your sure-hit effect will come back into action.",
+                "Additionally, Even a single moment distracted before a domain battle can lead to disaster, when a hostile creature expands their domain and you expand yours as a reaction, if you have already taken a reaction during this round of combat you must make a contested check against the creature using your Cursed Energy Modifier, or a Dexterity (Sleight of Hand) check, as determined by the DM. If you succeed the contest, the clash proceeds as normal, but if you lose the contest, you and any other creature's within the creature's domain are subject to the sure hit effect as normal, as if the creature's domain was in its 0.2 Domain Expansion variation, after which the domain clash proceeds as normal, with the sure hit effects cancelling each other out. This feature may oftentimes not occur when the reaction or reactions the creature had taken within the round were simplistic and not strenuous.(such as extra reactions provided for a feature to be used only for said feature, or making an opportunity attack.) This interaction would occur when the reaction or reactions that were taken were particularly difficult or strenuous, such as Burnout Recovery."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Handsign Amplification",
+              "entries": [
+                "Even when your Domain Expansion is deployed, you're still able to amplify it to an extent. As a distracting action, you can reduce your speed to 0 until the beginning of your next turn, maintaining the hand sign of your Domain Expansion to increase the potency of your barrier technique in power. Until the beginning of your next turn, any New Shadow Style: Simple Domains or Hollow Wicker Baskets active in your domain will instead take 4d12 force damage per 100 refinement your domain has, instead of 3d12."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Equal Refinement Domain Clashes",
+              "entries": [
+                "Although an extremely unlikely scenario, that's almost impossible to happen in normal standards, when the top of the world fights this god-like scene might bestow itself to the eyes of outside viewers. When two Domain Expansions of equal refinement clash, they completely nullify each other, not being able to overpower or be overpowered, so it's up to the two sorcerer's to maintain their domain while bringing the opponent's down. As soon as one of the domain casters reach 1/3 (rounded down) of their maximum hit points they need to succeed in a Constitution saving throw to maintain concentration on their domain as if they were concentrating on a spell. On a success, the domain is kept stable and they can keep going. On a failure, their domain breaks, giving in to the opponent's, and they suffer the after effects of Burnout from Domain Expansion."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Barrierless Domain",
+          "entries": [
+            "You have refined your domain expansion to new levels, making it become a true work of art.",
+            {
+              "type": "entries",
+              "name": "Different Properties",
+              "entries": [
+                "When you expand your domain, you may choose to make the barrier intangible. Your maximum domain expansion range increases to 655 ft., with the center at the middle, but you may expand your domain with a smaller range if you wish. As a Bonus Action, you may change the range of your domain (655 ft max). Your domain cannot be destroyed unless you receive 1/3 of your maximum hit points in damage, at which point you must make a DC 15 + half the damage taken Constitution saving throw. On a failure, the domain is destroyed. Your techniques still have the sure-hit effect, however due to not having a barrier, your domain is much easier to escape. Also, in a domain clash, your sure-hit effect is not negated outside the other domain expansion's barrier if they have one. Additionally, your sure-hit effect and cursed techniques can target the outside barrier of the other domain directly."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Different Properties",
+              "entries": [
+                "Barrierless Domains are an ability that even those who reach the absolute pinnacle of power as a sorcerer sometimes do not gain. The DM is encouraged to have control over who attains this extremely powerful ability."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Canon Variant",
+          "entries": [
+            "Expanding your domain instead costs 50 cursed energy or an amount of cursed energy equal to your cursed energy maximum minus 5 (minimum of 25), but the duration is 20 minutes. At 500 refinement this increases to 40 minutes and at 1000 refinement this increases to 60 minutes.",
+            "Expanding an Incomplete Domain will cost 25 cursed energy."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Incomplete Domain Expansion Examples",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Chimera Shadow Garden",
+              "entries": [
+                "You have learned how to expand your own domain from the shadows. Your domain is a huge shadow barrier, filling your surroundings with overwhelming darkness.",
+                "Every surface of this domain is your Shadow. and as such, anything that is submerged into it will enter your Shadow Storage. While your domain is active, you cannot eject or remove things within your shadow storage until it is dispelled. Creatures that can move on liquid surfaces can stand on the shadow without falling into it.",
+                {
+                  "type": "entries",
+                  "name": "Shadow Clones",
+                  "entries": [
+                    "As a bonus action while inside the domain, you can spend a number of cursed energy up to your Charisma modifier to create a number of clones of yourself equal to the energy spent. The clones are identical to you, but don't keep your weapons or hit points, and cannot use cursed energy. They only do their unarmed strike damage or the weapon's damage die for their attacks, not benefiting from features such as Curse Empowered Strikes. Their hit points are equal to your Charisma modifier, and they become a shadow puddle once they're reduced to 0 hit points. You may use your reaction to switch places with a clone when you would be hit, making the clone take the hit instead. These clones cannot exist outside of your domain. Your clones are effected by the weight of your Shadow Storage and are dispelled if the weight exceeds your carrying capacity, unable to bear it."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Shikigami Clones",
+                  "entries": [
+                    "Your domain allows you to summon copies of your shikigami to overwhelm your opponents. Whenever you summon a shikigami, you can spend additional cursed energy equal to the shikigami's cost (even if the shikigami costs 0 cursed energy, it will treat its price as if you were outside your domain) to summon a copy of said shikigami alongside it. You can spend cursed energy this way a number of times up to your Charisma modifier on the same turn. These clones are identical to the real shikigami, but deal half as much damage and have an amount of hit points equal to your Charisma modifier. You cannot create copies of Mahoraga with this feature. These clones cannot exist outside of your domain."
+                  ]
+                },
+                "Due to not possessing a proper barrier and imbued innate technique, this domain has no sure hit effect while it is incomplete."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Domain Expansion Examples",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Malevolent Shrine",
+              "entries": [
+                "You have reached the pinnacle of your innate technique, making you finally be able to use your Domain Expansion. You manifest a shrine with skeleton pieces behind you, as you form a barrier around it. At the start of each round after this Domain is cast, all creatures inside the domain's range receive two cursed energy attack rolls depending on what their cursed energy is. They receive two from Dismantle (if they have no cursed energy) and two from cleave (if they have cursed energy). The dismantles count as if you have spent the maximum amount, however the cleaves count as if you have spent a number of cursed energy equal to your Charisma modifier added thrice.",
+                "Objects and structures within the domain's radius receive the attack rolls at the beginning of each round.",
+                "The Dismantles and Cleaves caused by this domain are the sure hit effect of this domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Unlimited Void",
+              "entries": [
+                "You have learned how to expand your own domain, showing the Unlimited Void to opponents. You can create a void in space that causes victims to receive all kinds of stimuli and information endlessly, restricting their thought processes and actions. At the beginning of each round after casting your Domain, every creature caught in the Domain Expansion that is not touching you must attempt an Intelligence saving throw. On a failure, they take 20d8 psychic damage and have their Intelligence, Wisdom, and Charisma scores become 1 and are unable to attack, use items, understand language, or communicate in any intelligible way, and fall unconscious for 1 minute. On a success, they take 10d8 psychic damage. At the end of every minute, the creature can repeat this saving throw, ending these effects on a success. This feature can also be ended by greater restoration or wish.",
+                "If this domain is used with the 0.2 Second Domain Expansion, the creatures can remake their saving throw at the beginning of their turns to end the condition early, and it does not deal damage. Additionally, due to the complex nature of the domain, you cannot change the target of this domain when you reach 600 or more refinement.",
+                "The Intelligence save and its effect caused by this domain are the sure hit effect of this domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Coffin Of The Iron Mountain",
+              "entries": [
+                "You have learned how to expand your domain to create a massive magma dimension. Your domain is a huge magma-like dimension, which irradiates extreme heat. At the beginning of each round after this Domain is cast, every creature except you must attempt a Constitution saving throw. On a failure, they take 30d12 fire damage and they also, if they failed by 5 or more, receive one level of exhaustion. On a success, they take half as much damage and do not receive a level of exhaustion. Creatures inside the dome have disadvantage on attack rolls if they don't have immunity to fire damage.",
+                "The Constitution save and its effects caused by this domain are the sure hit effect of this domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Self-Embodiment of Perfection",
+              "entries": [
+                "You have studied your powers and have finally learned your most powerful technique. You create a large dimension filled with your Hands, making escaping death almost impossible. At the beginning of each round after this Domain is cast, all creatures except you must make a Constitution saving throw. On a failure, they receive 30d12 necrotic damage. On a success, they take half as much damage. If this reduces them to less than a ¼ of their maximum hit points, they are instantly transformed into Transfigured creatures.",
+                "When within your domain, your Idle Transfiguration feature can now be used as a cursed energy attack roll, and you may replace attacks from your attack action with it.",
+                "The ability to use Idle Transfiguration as a cursed energy attack roll and the Constitution save and its effects caused by this domain is the sure hit effect of this domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Ceremonial Sea of Light/Shining Sea of Growing Branches",
+              "entries": [
+                "You have refined your innate technique to the maximum, learning your Domain Expansion. Your domain is a gigantic forest full of flora and heavy trees, having a swarm of constant growing plants that are out to get creatures. Inside your domain counts as difficult terrain and a heavily obscured area for all creatures but you.",
+                "All creatures must make a Strength saving throw at the beginning of each round after the casting of this Domain, due to the plants swarming them. On a failure, they are restrained by roots. On a success, they are not restrained by the roots.",
+                "After being restrained by the roots, the plants start letting out toxic clouds near them which forces the creature to make a Constitution saving throw at the beginning of their turns. On a failure, they take 20d8 poison damage and are poisoned. On a success, they take half as much damage and are not poisoned.",
+                "After being poisoned by the plants, the toxin now starts affecting the creatures' bodies, changing their view of the world. The creatures are now hallucinating until they pass the Constitution saving throw."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Horizon of the Captivating Skandha",
+              "entries": [
+                "The insides of the domain have an island and a sea that you can interact with, and an artificial sun that works as a heat and light source. While inside your Domain, you gain an additional Action that may only be used for your Death Swarm technique.",
+                "Any attacks made by your Death Swarm shikigami are affected by the sure hit feature of your Domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Lunar Palace Womb of Time",
+              "entries": [
+                "Upon activation, the domain manifests as an abyssal void scattered with drifting filmstrips and particles. The only terrain is a fleshy path that leads to a massive, half-lidded eye looming behind the caster—the Time Cell Moon.",
+                "Once per round, if a creature within the domain takes any action involving physical movement—including an action, bonus action, reaction, or free action—they must succeed on a Intelligence saving throw. On a failed save, they suffer 30d12 force damage. On a success, they take half as much damage.",
+                "If a creature attempts to force movement through any means (such as shoving, dragging, grappling, or external effects), the affected target must succeed on a Constitution saving throw. On a failure, they suffer 15d10 force damage to a limb that is not the skull, neck, torso, or jaw. On a success, they take half as much damage.",
+                "The Intelligence save and its effects caused by this domain is the sure hit effect of this domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Threefold Affliction",
+              "entries": [
+                "While inside your domain, you can now create any of your items by spending no cursed energy. All of these items will deal one additional damage dice and will count as magical, and will count as the sure-hit effect. However, these items will only last until the end of the domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Womb Profusion",
+              "entries": [
+                "A tree of souls surrounded by four seated Buddhas at the cardinal points emerges behind you, as your barrier starts opening. The area targeted by this feature counts as difficult terrain for all creatures. At the beginning of each round after casting this Domain, each creature of your choice must make a Dexterity Saving Throw or take damage equal to your Maximum Uzumaki's damage in force damage and become prone. The Uzumaki counts as if you have spent the maximum amount of spirits.",
+                "The Dexterity save and its effects caused by this domain are the sure hit effect of this domain."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: True & Mutual Love",
+              "entries": [
+                "Through many battles and copies, you have finally learned how to expand your domain. Inside this barrier, you're filled with a world of blades, and broken pillars. This domain utilizes the most important aspect of your Copy Technique, its versatility. As such, it can be configured in many ways.",
+                {
+                  "type": "entries",
+                  "name": "Sure Hit Effect",
+                  "entries": [
+                    "You may apply a copied innate technique as the sure hit effect. Choose a copied Innate Technique, imbuing the Lapse Technique as the sure hit effect. The result of this can very on what technique is applied. (For Example, a simple Cursed Technique Feature that is a saving throw would be much more applicable.) This Copied Technique feature will become the recurring sure hit effect of the Domain, occurring at the start of each round. The Innate Technique imbued into the barrier cannot be found within the blades of the domain."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Copy Blades",
+                  "entries": [
+                    "The remainder of Copied Innate Techniques you currently have are scattered into blades that are spread throughout the domain. You do not know which technique is in a blade until you touch it, and the number of blades in the Domain are infinite. As a free action, you can pick up a blade within your domain, with a random one of your Copied Innate Techniques being in it (You can roll a die corresponding to the amount of techniques). You can use the copied technique in the blade once, before it disappears and you must use a free action to gain another blade. Durations from a copied technique last as long as they normally would, until the domain ends, or until you use a different copied technique. Only you can use the Copied Techniques in the blades.",
+                    "You may not use more than one cursed technique, if you are actively using one of your cursed techniques, such as a summoned shikigami, a duration-based ability (e.g., Limitless' one-minute Infinity or Hakuna Laana's one-minute dance), or any other ongoing effect tied to that technique, activating a different cursed technique will immediately end all effects of the currently active technique. This includes any summoned entities, sustained abilities, or residual effects tied to the initial cursed technique. Additionally, you cannot use additional actions, reactions, or bonus actions granted by one cursed technique (e.g., the extra reactions from Projection Sorcery) to activate or utilize another cursed technique. All of the following effects of a technique being deactivated also occur when Copy is no longer active."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Heaven's Gate",
+              "entries": [
+                "Your domain is beautiful blue sky full of clouds, with a shining sun illuminating everything. At the beginning of each round after casting your domain, all creatures inside the Domain inside must make a Wisdom saving throw or be considered falling even if they have flying speed. The creatures may repeat its saving throw at the beginning of their turns, ending the effect on a success. If a creature is falling on your domain, it takes twice as much damage from your cursed techniques. Once the domain ends, if a creature was considered \"falling\" it will take the maximum amount of fall damage."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Deadly Artillery",
+              "entries": [
+                "Inside your domain is a giant warzone full of canons filled with giant missiles. At the beginning of each round after this Domain is cast, every creature of your choice inside the domain must make a Dexterity saving throw as the canons start to shoot out their missiles. On a failure, they take 20d12 force damage + 30d4 fire damage and are knocked prone. On a success, they take half as much damage and are not knocked prone.",
+                "The Dexterity save and its effects caused by your domain is the sure hit effect of your domain."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Canon Variants",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Unlimited Void",
+              "entries": [
+                "You have learned how to expand your own domain, showing the Unlimited Void to opponents. You can create a void in space that causes victims to receive all kinds of stimuli and information endlessly, restricting their thought processes and actions. At the start of each round after casting this Domain, every creature caught in the Domain Expansion that is not touching you must attempt an Intelligence saving throw. On a failure, they take 20d8 psychic damage and have their Intelligence, Wisdom, and Charisma scores become 1 and are unable to attack, use items, understand language, or communicate in any intelligible way, and fall unconscious for 1 minute. On a success, they take 10d8 psychic damage and are incapacitated until the beginning of their next turn, and don't need to make their next saving throws against this use of Unlimited Void. At the end of every minute, the creature can repeat this saving throw, ending these effects on a success. This feature can also be ended by greater restoration or wish.",
+                "If this domain is used with the 0.2 Second Domain Expansion, the creatures can remake their saving throw at the beginning of their turns to end the condition early, and it does not deal damage. Additionally, due to the complex nature of the domain, you cannot change the target of this domain when you reach 600 or more refinement.",
+                "The Intelligence save and its effect caused by this domain are the sure hit effect of this domain.",
+                "Unlimited Void overloads the mind with information, causing extreme damage to the brain of the target. If a creature is affected by Unlimited Void while it is not in its 0.2 Second Domain Expansion variation, they will suffer damage to a part of their brain, causing varying effects, which last until the creature takes a long rest. The creature must roll a d6, being affected by the corresponding conditions on the chart:",
+                {
+                  "type": "table",
+                  "caption": "Unlimited Void Brain Damage",
+                  "colLabels": [
+                    "D6",
+                    "Condition"
+                  ],
+                  "colStyles": [
+                    "col-2 text-center",
+                    "col-10"
+                  ],
+                  "rows": [
+                    [
+                      "1-2. Cursed Energy Manipulation.",
+                      "Their general cursed energy manipulation is affected, whenever the creature attempts to utilize cursed energy, they must take a free action their turn to make a DC 15 Check using their Cursed Energy Modifier. On a success, they can utilize cursed energy as normal until the beginning of their next turn. On a failure, the cost of all of their features which expend cursed energy are increased by half of your proficiency bonus (rounded down). This lasts until they use a free action to make the check again."
+                    ],
+                    [
+                      "3-4. Barrier Techniques.",
+                      "Unlimited Void damages the part of their brain in charge of Barrier Techniques. Whenever the creature attempts to utilize a Barrier Technique with a cursed energy cost of more than 5, the Barrier Technique will fail, as their their eyes and nose begin to bleed, causing them to take psychic damage equal 1d12 per cursed energy spent on the barrier technique (before reductions)."
+                    ],
+                    [
+                      "5-6. Innate Techniques.",
+                      "Unlimited Void damages their prefrontal cortex, causing it to partially affect their usage of innate techniques whenever they attempt to inject energy into the technique. Whenever the creature attempts to use their Innate Technique, they must make a Constitution saving throw. On a success, they use the technique as normal. On a failure, any damage it deals, its range, AoE size, as well as its duration are all halved. If a creature possesses multiple innate techniques, this will only affect one of them, as determined by the DM."
+                  ]
+                },
+                "A Cursed Spirit is only affected by this feature for a number of rounds equal to your Charisma modifier."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Domain Expansion: Self-Embodiment of Perfection",
+              "entries": [
+                "You have studied your powers and have finally learned your most powerful technique. You create a large dimension filled with your body parts, making escaping death almost impossible. At the beginning of each round after casting this Domain, all creatures except you must make a Constitution saving throw. On a failure, you may choose to make them a transfigured creature. On a success, they will take 30d12 necrotic damage. If this reduces them to 0 hit points, they are instantly transformed into Transfigured creatures. The damage of this domain is considered Major Soul Harming.",
+                "When within your domain, your Idle Transfiguration feature can now be used as a cursed energy attack roll, and you may replace attacks from your attack action with it.",
+                "The ability to use Idle Transfiguration as a cursed energy attack roll and the Constitution save and its effects caused by this domain is the sure hit effect of this domain.",
+                "If this domain is used with the 0.2 Second Domain Expansion, if a creature fails the Constitution saving throw, you will instead transfigure a limb that is not the Skull, Neck, Torso, or Jaw."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "monster": [
-    {
+  {
 	"name": "Kenta Gojo",
 	"isNamedCreature": true,
 	"source": "jujutsukaisen",
@@ -17967,6 +18675,80 @@
             "To amend this, you may continue your training, decreasing the DC for this roll by 1 for each subsequent session. Once the DC reaches 1, you do not need to roll, and instead possess the feat as if you had obtained it through natural means. You will need to wait one day to train again after each session.",
             "You may choose any feats of which you meet the requirements to train. You may spend more time or take a higher Mastery Die, to ignore one requirement for the feat, if allowed by your DM. This cannot be a race, an innate technique, or a level requirement, and it may not be a prerequisite requiring you possess another cursed feat. Additionally, players may be allowed to train features that are not feats, at the DM's discretion."
         ]
+    },
+    {
+      "name": "Domain Expansion",
+      "source": "jujutsukaisen",
+      "page": 0,
+      "ruleType": "O",
+      "entries": [
+       "Domain Expansion is the most supreme technique of any jujutsu user. It is achieved by expanding one's innate domain with cursed energy while using a barrier to construct it inside a separate space. The caster then imbues their cursed technique within the barrier to complete the expansion, allowing them to deploy their ability all throughout the domain.", 
+        {
+          "type": "entries",
+          "name": "Domain Basics",
+          "entries": [
+            "All domains are different from one another, varying in their hand signs or techniques. However, they all tend to follow the same base rules unless otherwise stated.",
+            {
+            "type": "entries",
+            "name": "Completing Your Domain",
+            "entries": [
+                "Over the course of a long rest, a creature with sufficient knowledge of Domain Expansion may attempt to complete their understanding and manifest their own. This process is often likened to confronting one's innermost self—what lies beyond the veil of the soul. As a result, this trial is both mentally and spiritually demanding, and only those with extreme focus and emotional clarity may succeed. When training to complete your domain you may choose one of the two between a Lethal and a Non-Lethal Domain, this determines your training difficulty as shown below:",
+                {
+                  "type": "list",
+                  "items": [
+                    "Completing A Lethal Domain. Over the course of a long rest, you may make a DC 20 Intelligence (Arcana) check and Constitution saving throw, and a DC 25 Charisma saving throw. If you succeed in all three, you will learn Domain Expansion. If you fail any one of the checks or saves, you must wait until the next long rest to attempt learning this again.",
+                    "Completing A Non-Lethal Domain. Over the course of a long rest, you may make a DC 25 Intelligence (Arcana) check and two DC 20 Charisma saving throws. If you succeed in all three, you will learn Domain Expansion. If you fail any one of the checks or saves, you must wait until the next long rest to attempt learning this again."
+                  ]
+                },
+                "Assisted Development. If you are learning or being taught by a creature that possesses Domain Expansion and is knowledgeable enough to teach it, you may instead roll the Arcana check with Charisma instead of Intelligence and may roll one of the saving throws with advantage.",
+                "Rapid Development. If you possess a great talent for learning and developing skills, (such as by showing an impressive aptitude for learning, or possessing the Jujutsu Genius feat.) your DM may instead allow you to roll to learn Domain Expansion over the course of a short rest, or even shorter period of time."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Expanding Your Domain",
+              "entries": [
+                "All domains require a specific hand sign for its expansion to be activated, taking a Full Turn Action to activate. All domains cost 30 Cursed Energy unless specified, and traps all creatures of your choice within range, within your barrier for 1 minute. The insides of a domain expansion varies from user to user, since it's like showing your soul to your opponents. Outside of your domain, it's appearance is of a giant black sphere floating in the air. The properties of domain expansions, such as range, damage, and other various effects also vary and should be defined upon creation. Additionally when casting the domain, the caster may send creatures a number of ft away from them equal to the casters Charisma modifier x 10, if the creature is a 0 Cursed Energy Heavenly Restriction they cannot be effected by this, furthermore, you cannot use this if someone is using a reaction to domain clash with you",
+                "Design Note: Though the properties of these domains vary, the radius should always be at least 10 ft and should be around 50-75 ft at max. Work with your DM to find a size that's acceptable.",
+                "All creatures outside are pushed to the edge of the barrier. They receive 1d4 bludgeoning damage per object they collided with as the domain pushed them. In case the domain forces them against a wall, they must start holding their breath until the domain is closed or shrunk.",
+                "This barrier cannot be moved through, regardless of the method of movement (walking, burrowing, flying, teleporting, etc.). You can deactivate your Domain Expansion at will (no action required)."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Cursed Technique Bonus",
+              "entries": [
+                "While inside your domain is where your techniques are at their strongest. While inside your domain, your cursed techniques and domain damage if any have additional dice equal to your Charisma modifier, gain a +5 bonus to their DCs and a +5 bonus to hit."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Technique Burnout",
+              "entries": [
+                "Even if the barrier or the environment aren't fully formed, casting domain expansion will cause the user's innate technique to become unstable for a short time afterward. Right after ending your domain expansion, roll a d10 + 5. You will enter Technique Burnout for a number of rounds equal to the amount rolled.",
+                "During this time, you gain 2 levels of exhaustion, and your innate technique becomes very difficult to use. All active Innate Technique features such as active durations, effects, or summoned entities are ended. In order to use any of your techniques, you must pay Cursed Energy equal to the cost of the feature (before reductions) alongside its regular cost and you must make a DC 30 Constitution saving throw. On a failure, your technique fails and you lose the cursed energy spent trying to make it work. On a success, the technique comes out, but any damage it deals, its range, Area of Effect size, as well as its duration are all halved. Domain Expansion is not able to be forced in this way.",
+                "When you enter Technique Burnout, you can choose to attempt to maintain any active techniques that would normally be ended, by using the regular technique burnout saving throw and effects to continue an Innate Technique feature, but all rules of Technique Burnout still apply.",
+                "If you are a Cursed Spirit the DC is 20 instead of 30."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Sure Hit",
+              "entries": [
+                "Domains that are expanded to be lethal are constructed within a barrier imbued with the user's innate cursed technique. The caster's abilities are amplified and any cursed techniques deployed within the domain are guaranteed to hit their target. While inside your domain radius, all of your cursed techniques from the imbued innate technique will be affected by the sure hit feature. No matter what your cursed energy attack roll is, it will be considered a hit. Creatures will automatically count as having failed saving throws for your cursed technique for the purposes of dealing damage (though not for conditions or additional effects). Additionally, the range of any imbued cursed technique feature is expanded to cover the entire domain, even if it is normally touch range. Finally any feature which negates, reduces, or avoids attacks, saving throws, damage, or conditions do not work against a feature affected by this unless it specifically states otherwise.",
+                {
+                  "type": "entries",
+                  "name": "Sure Hit Effect",
+                  "entries": [
+                    "Domains also have a passive effect which they apply called the sure hit effect, if this effect inflicts damage or conditions the domain is considered Lethal, if it doesn’t it is considered Non-Lethal.",
+                    "Lastly, lethal sure hit effects require a Saving Throw or an Attack Roll to generally happen at the beginning of each round after they are cast. A Domain Expansion's sure hit effect is usually listed at the end of the Domain's mechanics."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
