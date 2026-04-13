@@ -4979,6 +4979,713 @@
   ],
   "monster": [
   {
+	"name": "Panda (Panda Core)",
+	"isNamedCreature": true,
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"L"
+	],
+	"type": {
+		"type": "construct",
+		"tags": [
+			"cursed corpse"
+		]
+	},
+	"alignment": [
+		"N",
+		"G"
+	],
+	"ac": [
+		{
+			"ac": 19,
+			"from": [
+				"Unarmored Defense"
+			]
+		}
+	],
+	"hp": {
+		"average": 217,
+		"formula": "14d10 + 140"
+	},
+	"speed": {
+		"walk": 65
+	},
+	"str": 20,
+	"dex": 16,
+	"con": 18,
+	"int": 12,
+	"wis": 14,
+	"cha": 18,
+	"save": {
+		"str": "+8",
+		"cha": "+7"
+	},
+	"skill": {
+		"acrobatics": "+6",
+		"athletics": "+8"
+	},
+	"passive": 12,
+	"immune": [
+		"poison"
+	],
+	"conditionImmune": [
+		"poisoned"
+	],
+	"languages": [
+		"Common"
+	],
+	"cr": "7",
+	"pbNote": "+3",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"Panda has 25 cursed energy that he can use to fuel his abilities. All of his cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Strike (1-3 Cursed Energy)",
+			"entries": [
+				"Panda can, when making an Unarmed Strike, add {@damage 1d8} force damage to his attack per Cursed Energy spent. Panda can also use this in response to rolling a natural 20 on an attack roll with an unarmed strike instead of beforehand. On a miss, the energy used remains until he hits a target or until 1 minute passes.",
+				"Panda can use this feature 3 times per round."
+			]
+		},
+		{
+			"name": "Cursed Armor (1-4 Cursed Energy)",
+			"entries": [
+				"Panda can give himself 5 temporary hit points per energy spent for 1 minute. Panda can only benefit from this feature again after 1 minute or having his temporary hit points reduced to 0."
+			]
+		},
+		{
+			"name": "Curse-Empowered Strikes",
+			"entries": [
+				"Panda deals an additional 5 ({@damage 1d10}) force damage whenever he attacks with unarmed strikes (already applied). Additionally, his unarmed strikes are considered magical."
+			]
+		},
+		{
+			"name": "Constructed Being",
+			"entries": [
+				"Panda doesn't need to eat, drink, breathe, or sleep. As long as Panda's cursed corpse core is intact, he can be revived. Furthermore, Panda cannot be healed using Reverse Cursed Technique."
+			]
+		},
+		{
+			"name": "Colossal Physique",
+			"entries": [
+				"Panda gains the following benefits: Panda will count as two sizes larger for the purposes of grappling, shoving, disarming and the weight he can carry, push, drag, or lift.",
+				"Whenever Panda makes a Strength check, instead of rolling the {@dice d20}, he can choose to automatically roll a 10 and use it for the check.",
+				"Any attack roll Panda makes which uses Strength deals twice as much damage to objects and structures.",
+				"Once per round as part of a successful melee weapon attack, Panda can force the creature hit to make a {@dc 16} Strength saving throw. On a failure, they are knocked directly back 50 feet. If the creature would collide with an unsecured object or structure then the creature and the unsecured object or structure receive {@damage 1d6} bludgeoning damage per every 10 feet the creature traveled before colliding with the surface. If it was another creature, they instead both take damage equal to half of Panda's melee attack's damage roll instead (rounded down). If Panda's melee attack was a critical hit and he uses this feature, the creature will have disadvantage on their saving throw and are knocked back twice the distance they would be if this feature was used on a regular attack.",
+				"Whenever Panda makes a Strength check or saving throw, he can give himself advantage on the roll. He can do this 5 times, regaining all uses after taking a long rest."
+			]
+		},
+		{
+			"name": "50 Meters In 3 Seconds!",
+			"entries": [
+				"Panda has 2 reactions per round."
+			]
+		},
+		{
+			"name": "Strong Body",
+			"entries": [
+				"Panda will reduce all damage he takes but psychic by 4. Attacks using Cursed Energy or magic can bypass this, unless he's under the effects of cursed armor.",
+				"Slam Master."
+			]
+		},
+		{
+			"name": "Brute Slam",
+			"entries": [
+				"Once per turn as part of an unarmed strike, Panda may make a grapple attempt against a creature. If he succeeds, he may pick up the creature and slam them against a solid surface within 10 ft. of him, such as the ground or a wall, dealing another roll of his martial arts die in damage ({@dice 1d8}). The surface takes twice as much damage as the creature, and if it breaks the creature takes another {@damage 2d6} damage of an appropriate type."
+			]
+		},
+		{
+			"name": "Heavy Slam",
+			"entries": [
+				"Whenever Panda takes the Attack action against a creature he is currently grappling with, he may forgo an attack to violently slam the creature into the ground. Panda makes a contested Strength ({@skill Athletics}) check against the creature who contests via Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (Their choice). On a successful check, Panda's opponent is driven into the earth beneath him ending his grapple early, taking bludgeoning damage equal to two rolls of his martial arts dice ({@dice 2d8}) and being knocked {@condition prone}. On a failure, the creature escapes from Panda's iron grasp, causing his grapple to end early and the creature may move an additional 5 ft. away from him as part of their successful check. If Panda scores a 20 on the Strength ({@skill Athletics}) check whilst using this feature and it was a success, the creature takes bludgeoning damage equal to four rolls of his martial arts damage dice ({@dice 4d8}) and gains disadvantage on attack rolls, ability checks, skill checks and Strength or Dexterity saving throws until the start of Panda's next turn.",
+				"Cursed Martial Artist.",
+				"Panda's unarmed strikes, when benefitting from the Cursed Strike enhancement, have their critical hit range increased by 1 (Ex. If he would score a critical hit on a roll of 20 with his unarmed strikes, he can now score a critical hit on a roll of 19 or 20 so long as he uses Cursed Strike). Additionally, whenever Panda scores a critical hit with an unarmed strike, he can roll one additional unarmed strike damage die when determining the extra damage for the critical hit.",
+				"If Panda has taken the Attack action on his turn and only used unarmed strikes, when he makes any unarmed strike which benefits from Cursed Strike as a bonus action, the enhancement's cursed energy cost is reduced by 2 (to a minimum of 1)."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Once per round, Panda can make an unarmed strike or martial weapon attack with advantage (this does not give him an extra attack). If Panda already had advantage on a unarmed strike or martial weapon attack, he raises the critical hit range for the attack by 1 using this feature."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"Panda can make 2 attacks."
+			]
+		},
+		{
+			"name": "Unarmed Strike",
+			"entries": [
+				"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@dice 1d12 + 9}) bludgeoning and 5 ({@damage 1d10}) force damage."
+			]
+		},
+		{
+			"name": "Material Distribution",
+			"entries": [
+				"When Panda is missing at least one limb, he may relocate materials from any of his limbs to replace any limbs he may have lost. When he does this, choose any number of limbs to use as materials and any number of lost limbs to replace, and divide their total current hit points between them, setting their current and maximum hit points to the value, rounded down. For every 2 limbs Panda remakes with this feature, his size is reduced by 1, to a minimum of tiny. If you're not using using the Limb System variant rule, you can instead reduce Panda's current and maximum hit points by 1/6 to make the new limb, becoming a size smaller for every 1/3 of his maximum hit points he loses."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Martial Arts",
+			"entries": [
+				"When Panda uses the Attack action with an unarmed strike on his turn, he can make one unarmed strike or attack with a one-handed weapon."
+			]
+		},
+		{
+			"name": "Cursed Weapon Enhancement (1-3 Cursed Energy)",
+			"entries": [
+				"Panda can add cursed energy to a melee weapon or improvised weapon he is wielding for 1 minute. Whenever he hits a target with the weapon, it takes extra force damage equal to the amount spent. Panda can only use this enhancement again after 1 minute has passed. Other creatures cannot use Panda's Cursed Weapon Enhancement, and must use their own. The duration remains while Panda isn't wielding the weapon, in case he is going to wield it again."
+			]
+		},
+		{
+			"name": "Cursed Blast of Blows (3 Cursed Energy)",
+			"entries": [
+				"Immediately after taking the Attack action on his turn, Panda can perform two unarmed strikes."
+			]
+		},
+		{
+			"name": "Cursed Patient Defense (3 Cursed Energy)",
+			"entries": [
+				"Panda can take the Dodge action."
+			]
+		},
+		{
+			"name": "Cursed Wind Step (3 Cursed Energy)",
+			"entries": [
+				"Panda can take the Disengage or Dash action on his turn, and his jump distance is doubled until the end of his turn."
+			]
+		},
+		{
+			"name": "Core Swap",
+			"entries": [
+				"Panda can change into either his Gorilla or Triceratops form, retaining his current cursed energy amount."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Whenever Panda takes the Attack action, he can make one unarmed strike, shove, grapple, or weapon attack as a bonus action."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Cursed Martial Artist",
+			"entries": [
+				"As a reaction when a creature fails a melee attack roll against him, Panda can make one unarmed strike against them. On a successful hit, Panda may add 4 to the damage roll."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Whenever Panda takes the Attack action on his turn, he may take the Dodge action as a reaction to an attack roll made against him, however, this Dodge action only causes melee attacks against him from the triggering attacker to gain disadvantage. If a creature rolls a natural 1 on a melee attack against him whilst he has performed this variation of the Dodge action, Panda can make one attack against that creature if it is within range once per round."
+			]
+		}
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"C"
+	],
+	"damageTags": [
+		"O"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"savingThrowForced": [
+		"strength"
+	]
+},
+{
+	"name": "Panda (Gorilla Core)",
+	"isNamedCreature": true,
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"L"
+	],
+	"type": {
+		"type": "construct",
+		"tags": [
+			"cursed corpse"
+		]
+	},
+	"alignment": [
+		"N",
+		"G"
+	],
+	"ac": [
+		{
+			"ac": 19,
+			"from": [
+				"Unarmored Defense"
+			]
+		}
+	],
+	"hp": {
+		"average": 189,
+		"formula": "14d10 + 112"
+	},
+	"speed": {
+		"walk": 65
+	},
+	"str": 20,
+	"dex": 16,
+	"con": 18,
+	"int": 12,
+	"wis": 14,
+	"cha": 18,
+	"save": {
+		"str": "+8",
+		"cha": "+7"
+	},
+	"skill": {
+		"acrobatics": "+6",
+		"athletics": "+8"
+	},
+	"passive": 12,
+	"languages": [
+		"Common"
+	],
+	"cr": "7",
+	"pbNote": "+3",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"Panda has 25 cursed energy that he can use to fuel his abilities. All of his cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Strike (1-3 Cursed Energy)",
+			"entries": [
+				"Panda can, when making an Unarmed Strike, add {@damage 1d8} force damage to his attack per Cursed Energy spent. Panda can also use this in response to rolling a natural 20 on an attack roll with an unarmed strike instead of beforehand. On a miss, the energy used remains until he hits a target or until 1 minute passes.",
+				"Panda can use this feature 3 times per round."
+			]
+		},
+		{
+			"name": "Cursed Armor (1-4 Cursed Energy)",
+			"entries": [
+				"Panda can give himself 5 temporary hit points per energy spent for 1 minute. Panda can only benefit from this feature again after 1 minute or having his temporary hit points reduced to 0."
+			]
+		},
+		{
+			"name": "Curse-Empowered Strikes",
+			"entries": [
+				"Panda deals an additional 5 ({@damage 1d10}) force damage whenever he attacks with unarmed strikes (already applied). Additionally, his unarmed strikes are considered magical."
+			]
+		},
+		{
+			"name": "Constructed Being",
+			"entries": [
+				"Panda doesn't need to eat, drink, breathe, or sleep. As long as Panda's cursed corpse core is intact, he can be revived. Furthermore, Panda cannot be healed using Reverse Cursed Technique."
+			]
+		},
+		{
+			"name": "Gorilla Strength",
+			"entries": [
+				"Panda counts as two sizes larger for the purposes of grappling and the weight he can carry."
+			]
+		},
+		{
+			"name": "Gorilla Strikes",
+			"entries": [
+				"Bludgeoning damage Panda deals ignores resistance."
+			]
+		},
+		{
+			"name": "Colossal Physique",
+			"entries": [
+				"Panda gains the following benefits: Panda will count as two sizes larger for the purposes of grappling, shoving, disarming and the weight he can carry, push, drag, or lift.",
+				"Whenever Panda makes a Strength check, instead of rolling the {@dice d20}, he can choose to automatically roll a 10 and use it for the check.",
+				"Any attack roll Panda makes which uses Strength deals twice as much damage to objects and structures.",
+				"Once per round as part of a successful melee weapon attack, Panda can force the creature hit to make a {@dc 16} Strength saving throw. On a failure, they are knocked directly back 50 feet. If the creature would collide with an unsecured object or structure then the creature and the unsecured object or structure receive {@damage 1d6} bludgeoning damage per every 10 feet the creature traveled before colliding with the surface. If it was another creature, they instead both take damage equal to half of Panda's melee attack's damage roll instead (rounded down). If Panda's melee attack was a critical hit and he uses this feature, the creature will have disadvantage on their saving throw and are knocked back twice the distance they would be if this feature was used on a regular attack.",
+				"Whenever Panda makes a Strength check or saving throw, he can give himself advantage on the roll. He can do this 5 times, regaining all uses after taking a long rest."
+			]
+		},
+		{
+			"name": "50 Meters In 3 Seconds!",
+			"entries": [
+				"Panda has 2 reactions per round."
+			]
+		},
+		{
+			"name": "Strong Body",
+			"entries": [
+				"Panda will reduce all damage he takes but psychic by 4. Attacks using Cursed Energy or magic can bypass this, unless he's under the effects of cursed armor.",
+				"Slam Master."
+			]
+		},
+		{
+			"name": "Brute Slam",
+			"entries": [
+				"Once per turn as part of an unarmed strike, Panda may make a grapple attempt against a creature. If he succeeds, he may pick up the creature and slam them against a solid surface within 10 ft. of him, such as the ground or a wall, dealing another roll of his martial arts die in damage ({@dice 1d8}). The surface takes twice as much damage as the creature, and if it breaks the creature takes another {@damage 2d6} damage of an appropriate type."
+			]
+		},
+		{
+			"name": "Heavy Slam",
+			"entries": [
+				"Whenever Panda takes the Attack action against a creature he is currently grappling with, he may forgo an attack to violently slam the creature into the ground. Panda makes a contested Strength ({@skill Athletics}) check against the creature who contests via Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (Their choice). On a successful check, Panda's opponent is driven into the earth beneath him ending his grapple early, taking bludgeoning damage equal to two rolls of his martial arts dice ({@dice 2d8}) and being knocked {@condition prone}. On a failure, the creature escapes from Panda's iron grasp, causing his grapple to end early and the creature may move an additional 5 ft. away from him as part of their successful check. If Panda scores a 20 on the Strength ({@skill Athletics}) check whilst using this feature and it was a success, the creature takes bludgeoning damage equal to four rolls of his martial arts damage dice ({@dice 4d8}) and gains disadvantage on attack rolls, ability checks, skill checks and Strength or Dexterity saving throws until the start of Panda's next turn.",
+				"Cursed Martial Artist.",
+				"Panda's unarmed strikes, when benefitting from the Cursed Strike enhancement, have their critical hit range increased by 1 (Ex. If he would score a critical hit on a roll of 20 with his unarmed strikes, he can now score a critical hit on a roll of 19 or 20 so long as he uses Cursed Strike). Additionally, whenever Panda scores a critical hit with an unarmed strike, he can roll one additional unarmed strike damage die when determining the extra damage for the critical hit.",
+				"If Panda has taken the Attack action on his turn and only used unarmed strikes, when he makes any unarmed strike which benefits from Cursed Strike as a bonus action, the enhancement's cursed energy cost is reduced by 2 (to a minimum of 1)."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Once per round, Panda can make an unarmed strike or martial weapon attack with advantage (this does not give him an extra attack). If Panda already had advantage on a unarmed strike or martial weapon attack, he raises the critical hit range for the attack by 1 using this feature."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"Panda can make 2 attacks."
+			]
+		},
+		{
+			"name": "Unarmed Strike",
+			"entries": [
+				"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@dice 2d8 + 5}) bludgeoning and 5 ({@damage 1d10}) force damage."
+			]
+		},
+		{
+			"name": "Material Distribution",
+			"entries": [
+				"When Panda is missing at least one limb, he may relocate materials from any of his limbs to replace any limbs he may have lost. When he does this, choose any number of limbs to use as materials and any number of lost limbs to replace, and divide their total current hit points between them, setting their current and maximum hit points to the value, rounded down. For every 2 limbs Panda remakes with this feature, his size is reduced by 1, to a minimum of tiny. If you're not using using the Limb System variant rule, you can instead reduce Panda's current and maximum hit points by 1/6 to make the new limb, becoming a size smaller for every 1/3 of his maximum hit points he loses."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Martial Arts",
+			"entries": [
+				"When Panda uses the Attack action with an unarmed strike on his turn, he can make one unarmed strike or attack with a one-handed weapon."
+			]
+		},
+		{
+			"name": "Cursed Weapon Enhancement (1-3 Cursed Energy)",
+			"entries": [
+				"Panda can add cursed energy to a melee weapon or improvised weapon he is wielding for 1 minute. Whenever he hits a target with the weapon, it takes extra force damage equal to the amount spent. Panda can only use this enhancement again after 1 minute has passed. Other creatures cannot use Panda's Cursed Weapon Enhancement, and must use their own. The duration remains while Panda isn't wielding the weapon, in case he is going to wield it again."
+			]
+		},
+		{
+			"name": "Cursed Blast of Blows (3 Cursed Energy)",
+			"entries": [
+				"Immediately after taking the Attack action on his turn, Panda can perform two unarmed strikes."
+			]
+		},
+		{
+			"name": "Cursed Patient Defense (3 Cursed Energy)",
+			"entries": [
+				"Panda can take the Dodge action."
+			]
+		},
+		{
+			"name": "Cursed Wind Step (3 Cursed Energy)",
+			"entries": [
+				"Panda can take the Disengage or Dash action on his turn, and his jump distance is doubled until the end of his turn."
+			]
+		},
+		{
+			"name": "Core Swap",
+			"entries": [
+				"Panda can change into either his Panda or Triceratops form, retaining his current cursed energy amount."
+			]
+		},
+		{
+			"name": "Unblockable Drumming Beat (5 Cursed Energy)",
+			"entries": [
+				"Panda may start the drumming beat. Every unarmed strike he makes afterwards for 1 minute is now under the effects of the drumming beat. If he were to miss an unarmed strike by 5 or less of the targets AC, the attack hits them and they must make a {@dc 16} Constitution saving throw. On a failure, they take the unarmed strikes damage. On a success, they take none."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Whenever Panda takes the Attack action, he can make one unarmed strike, shove, grapple, or weapon attack as a bonus action."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Cursed Martial Artist",
+			"entries": [
+				"As a reaction when a creature fails a melee attack roll against him, Panda can make one unarmed strike against them. On a successful hit, Panda may add 4 to the damage roll."
+			]
+		}
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"C"
+	],
+	"damageTags": [
+		"O"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"savingThrowForced": [
+		"constitution",
+		"strength"
+	]
+},
+{
+	"name": "Panda (Triceratops Core)",
+	"isNamedCreature": true,
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"L"
+	],
+	"type": {
+		"type": "construct",
+		"tags": [
+			"cursed corpse"
+		]
+	},
+	"alignment": [
+		"N",
+		"G"
+	],
+	"ac": [
+		{
+			"ac": 21,
+			"from": [
+				"Unarmored Defense"
+			]
+		}
+	],
+	"hp": {
+		"average": 231,
+		"formula": "14d10 + 154"
+	},
+	"speed": {
+		"walk": 65
+	},
+	"str": 20,
+	"dex": 16,
+	"con": 18,
+	"int": 12,
+	"wis": 14,
+	"cha": 18,
+	"save": {
+		"str": "+8",
+		"cha": "+7"
+	},
+	"skill": {
+		"acrobatics": "+6",
+		"athletics": "+8"
+	},
+	"passive": 12,
+	"languages": [
+		"Common"
+	],
+	"cr": "7",
+	"pbNote": "+3",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"Panda has 25 cursed energy that he can use to fuel his abilities. All of his cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Strike (1-3 Cursed Energy)",
+			"entries": [
+				"Panda can, when making an Unarmed Strike, add {@damage 1d8} force damage to his attack per Cursed Energy spent. Panda can also use this in response to rolling a natural 20 on an attack roll with an unarmed strike instead of beforehand. On a miss, the energy used remains until he hits a target or until 1 minute passes.",
+				"Panda can use this feature 3 times per round."
+			]
+		},
+		{
+			"name": "Cursed Armor (1-4 Cursed Energy)",
+			"entries": [
+				"Panda can give himself 5 temporary hit points per energy spent for 1 minute. Panda can only benefit from this feature again after 1 minute or having his temporary hit points reduced to 0."
+			]
+		},
+		{
+			"name": "Curse-Empowered Strikes",
+			"entries": [
+				"Panda deals an additional 5 ({@damage 1d10}) force damage whenever he attacks with unarmed strikes (already applied). Additionally, his unarmed strikes are considered magical."
+			]
+		},
+		{
+			"name": "Constructed Being",
+			"entries": [
+				"Panda doesn't need to eat, drink, breathe, or sleep. As long as Panda's cursed corpse core is intact, he can be revived. Furthermore, Panda cannot be healed using Reverse Cursed Technique."
+			]
+		},
+		{
+			"name": "Colossal Physique",
+			"entries": [
+				"Panda gains the following benefits: Panda will count as two sizes larger for the purposes of grappling, shoving, disarming and the weight he can carry, push, drag, or lift.",
+				"Whenever Panda makes a Strength check, instead of rolling the {@dice d20}, he can choose to automatically roll a 10 and use it for the check.",
+				"Any attack roll Panda makes which uses Strength deals twice as much damage to objects and structures.",
+				"Once per round as part of a successful melee weapon attack, Panda can force the creature hit to make a {@dc 16} Strength saving throw. On a failure, they are knocked directly back 50 feet. If the creature would collide with an unsecured object or structure then the creature and the unsecured object or structure receive {@damage 1d6} bludgeoning damage per every 10 feet the creature traveled before colliding with the surface. If it was another creature, they instead both take damage equal to half of Panda's melee attack's damage roll instead (rounded down). If Panda's melee attack was a critical hit and he uses this feature, the creature will have disadvantage on their saving throw and are knocked back twice the distance they would be if this feature was used on a regular attack.",
+				"Whenever Panda makes a Strength check or saving throw, he can give himself advantage on the roll. He can do this 5 times, regaining all uses after taking a long rest."
+			]
+		},
+		{
+			"name": "50 Meters In 3 Seconds!",
+			"entries": [
+				"Panda has 2 reactions per round."
+			]
+		},
+		{
+			"name": "Strong Body",
+			"entries": [
+				"Panda will reduce all damage he takes but psychic by 4. Attacks using Cursed Energy or magic can bypass this, unless he's under the effects of cursed armor.",
+				"Slam Master."
+			]
+		},
+		{
+			"name": "Brute Slam",
+			"entries": [
+				"Once per turn as part of an unarmed strike, Panda may make a grapple attempt against a creature. If he succeeds, he may pick up the creature and slam them against a solid surface within 10 ft. of him, such as the ground or a wall, dealing another roll of his martial arts die in damage ({@dice 1d8}). The surface takes twice as much damage as the creature, and if it breaks the creature takes another {@damage 2d6} damage of an appropriate type."
+			]
+		},
+		{
+			"name": "Heavy Slam",
+			"entries": [
+				"Whenever Panda takes the Attack action against a creature he is currently grappling with, he may forgo an attack to violently slam the creature into the ground. Panda makes a contested Strength ({@skill Athletics}) check against the creature who contests via Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (Their choice). On a successful check, Panda's opponent is driven into the earth beneath him ending his grapple early, taking bludgeoning damage equal to two rolls of his martial arts dice ({@dice 2d8}) and being knocked {@condition prone}. On a failure, the creature escapes from Panda's iron grasp, causing his grapple to end early and the creature may move an additional 5 ft. away from him as part of their successful check. If Panda scores a 20 on the Strength ({@skill Athletics}) check whilst using this feature and it was a success, the creature takes bludgeoning damage equal to four rolls of his martial arts damage dice ({@dice 4d8}) and gains disadvantage on attack rolls, ability checks, skill checks and Strength or Dexterity saving throws until the start of Panda's next turn.",
+				"Cursed Martial Artist.",
+				"Panda's unarmed strikes, when benefitting from the Cursed Strike enhancement, have their critical hit range increased by 1 (Ex. If he would score a critical hit on a roll of 20 with his unarmed strikes, he can now score a critical hit on a roll of 19 or 20 so long as he uses Cursed Strike). Additionally, whenever Panda scores a critical hit with an unarmed strike, he can roll one additional unarmed strike damage die when determining the extra damage for the critical hit.",
+				"If Panda has taken the Attack action on his turn and only used unarmed strikes, when he makes any unarmed strike which benefits from Cursed Strike as a bonus action, the enhancement's cursed energy cost is reduced by 2 (to a minimum of 1)."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Once per round, Panda can make an unarmed strike or martial weapon attack with advantage (this does not give him an extra attack). If Panda already had advantage on a unarmed strike or martial weapon attack, he raises the critical hit range for the attack by 1 using this feature."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"Panda can make 2 attacks."
+			]
+		},
+		{
+			"name": "Unarmed Strike",
+			"entries": [
+				"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@dice 1d12 + 5}) bludgeoning and 5 ({@damage 1d10}) force damage."
+			]
+		},
+		{
+			"name": "Triceratops Charge",
+			"entries": [
+				"Panda can charge at a creature within his movement speed range and make a melee attack roll against the target. On a hit the target takes 19 ({@damage 3d12}) piercing damage and must make a {@dc 16} Strength saving throw. On a failure, it is knocked {@condition prone} and on a success it is unaffected. The charge must be longer than 10 feet to work."
+			]
+		},
+		{
+			"name": "Material Distribution",
+			"entries": [
+				"When Panda is missing at least one limb, he may relocate materials from any of his limbs to replace any limbs he may have lost. When he does this, choose any number of limbs to use as materials and any number of lost limbs to replace, and divide their total current hit points between them, setting their current and maximum hit points to the value, rounded down. For every 2 limbs Panda remakes with this feature, his size is reduced by 1, to a minimum of tiny. If you're not using using the Limb System variant rule, you can instead reduce Panda's current and maximum hit points by 1/6 to make the new limb, becoming a size smaller for every 1/3 of his maximum hit points he loses."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Martial Arts",
+			"entries": [
+				"When Panda uses the Attack action with an unarmed strike on his turn, he can make one unarmed strike or attack with a one-handed weapon."
+			]
+		},
+		{
+			"name": "Cursed Weapon Enhancement (1-3 Cursed Energy)",
+			"entries": [
+				"Panda can add cursed energy to a melee weapon or improvised weapon he is wielding for 1 minute. Whenever he hits a target with the weapon, it takes extra force damage equal to the amount spent. Panda can only use this enhancement again after 1 minute has passed. Other creatures cannot use Panda's Cursed Weapon Enhancement, and must use their own. The duration remains while Panda isn't wielding the weapon, in case he is going to wield it again."
+			]
+		},
+		{
+			"name": "Cursed Blast of Blows (3 Cursed Energy)",
+			"entries": [
+				"Immediately after taking the Attack action on his turn, Panda can perform two unarmed strikes."
+			]
+		},
+		{
+			"name": "Cursed Patient Defense (3 Cursed Energy)",
+			"entries": [
+				"Panda can take the Dodge action."
+			]
+		},
+		{
+			"name": "Cursed Wind Step (3 Cursed Energy)",
+			"entries": [
+				"Panda can take the Disengage or Dash action on his turn, and his jump distance is doubled until the end of his turn."
+			]
+		},
+		{
+			"name": "Core Swap",
+			"entries": [
+				"Panda can change into either his Panda or Gorilla form, retaining his current cursed energy amount."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Whenever Panda takes the Attack action, he can make one unarmed strike, shove, grapple, or weapon attack as a bonus action."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Cursed Martial Artist",
+			"entries": [
+				"As a reaction when a creature fails a melee attack roll against him, Panda can make one unarmed strike against them. On a successful hit, Panda may add 4 to the damage roll."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Whenever Panda takes the Attack action on his turn, he may take the Dodge action as a reaction to an attack roll made against him, however, this Dodge action only causes melee attacks against him from the triggering attacker to gain disadvantage. If a creature rolls a natural 1 on a melee attack against him whilst he has performed this variation of the Dodge action, Panda can make one attack against that creature if it is within range once per round."
+			]
+		},
+		{
+			"name": "Taijutsu Sorcery",
+			"entries": [
+				"Whenever Panda takes the Attack action on his turn, he may take the Dodge action as a reaction to an attack roll made against him, however, this Dodge action only causes melee attacks against him from the triggering attacker to gain disadvantage. If a creature rolls a natural 1 on a melee attack against him whilst he has performed this variation of the Dodge action, Panda can make one attack against that creature if it is within range once per round."
+			]
+		}
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"C"
+	],
+	"damageTags": [
+		"O",
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"conditionInflict": [
+		"prone"
+	],
+	"savingThrowForced": [
+		"strength"
+	]
+},
+    {
 	"name": "Kenta Gojo",
 	"isNamedCreature": true,
 	"source": "jujutsukaisen",
