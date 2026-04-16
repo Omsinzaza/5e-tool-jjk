@@ -4978,6 +4978,1008 @@
     }
   ],
   "monster": [
+{
+	"name": "Pond Curse",
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"T"
+	],
+	"type": {
+		"type": "undead",
+		"tags": [
+			"cursed spirit"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 9,
+			"from": [
+				"natural armor"
+			]
+		}
+	],
+	"hp": {
+		"average": 5,
+		"formula": "2d6 - 2"
+	},
+	"speed": {
+		"walk": {
+			"number": 30,
+			"condition": "swim"
+		}
+	},
+	"str": 6,
+	"dex": 8,
+	"con": 8,
+	"int": 4,
+	"wis": 8,
+	"cha": 10,
+	"passive": 9,
+	"resist": [
+		"poison",
+		"cold",
+		"psychic"
+	],
+	"vulnerable": [
+		"radiant caused by reverse cursed technique"
+	],
+	"cr": "1/8",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"The curse has 2 cursed energy that it can use to fuel it's abilities. All of it's cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Energy Recovery",
+			"entries": [
+				"While in combat, the curse regains 1 cursed energy at the beginning of each of its turns, up to its maximum. The combat must be one where the curse's life is at risk."
+			]
+		},
+		{
+			"name": "Cursed Attack",
+			"entries": [
+				"The curse's attacks are considered magical."
+			]
+		},
+		{
+			"name": "Pact Tactics",
+			"entries": [
+				"The curse gains advantage on attack rolls whenever there's an ally within 5 ft. of it."
+			]
+		},
+		{
+			"name": "Invisible Force",
+			"entries": [
+				"The curse is entirely made out of cursed energy, meaning it is {@condition invisible}. Creatures with levels in the Jujutsu Sorcerer class or who can see into the Ethereal Plane can see the curse. Although, if these creatures were in a life and death situation(less than half their maximum hit points), they gain the ability to see you."
+			]
+		},
+		{
+			"name": "Phasing",
+			"entries": [
+				"Due to being composed of a smaller amount of cursed energy, the curse may walk through objects and structures as if they weren't there."
+			]
+		},
+		{
+			"name": "Conduit Of The River",
+			"entries": [
+				"Whenever the Pond {@variantrule Curses|XPHB|Curse} sees another Pond {@variantrule Curses|XPHB|Curse} die, it yells out a screech. Causing every other Pond {@variantrule Curses|XPHB|Curse} that can hear it, to form together, forming into Fright Over Death. The Pond {@variantrule Curses|XPHB} stay in their Fright Over Death form until every hostile creature they can see have died."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Water Splash",
+			"entries": [
+				"{@atk rw} {@hit 2} to hit, range 15 ft., one target. {@h}2 ({@dice 1d4} ) cold damage."
+			]
+		},
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) slashing damage."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"The curse can spend up to 2 Cursed Energy, regaining hit points equal to 5 times the amount spent."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"As a reaction to suffering damage, the curse uses its Regeneration."
+			]
+		}
+	],
+	"damageTags": [
+		"S"
+	],
+	"miscTags": [
+		"MW",
+		"RW"
+	],
+	"conditionInflict": [
+		"invisible"
+	]
+},
+{
+	"name": "Mini Catfish Curse",
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"T"
+	],
+	"type": {
+		"type": "undead",
+		"tags": [
+			"cursed spirit"
+		]
+	},
+	"alignment": [
+		"N",
+		"E"
+	],
+	"ac": [
+		8
+	],
+	"hp": {
+		"average": 15,
+		"formula": "7d4 - 3"
+	},
+	"speed": {
+		"walk": {
+			"number": 50,
+			"condition": "fly"
+		}
+	},
+	"str": 4,
+	"dex": 8,
+	"con": 7,
+	"int": 9,
+	"wis": 6,
+	"cha": 16,
+	"passive": 8,
+	"resist": [
+		{
+			"resist": [
+				"poison",
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"note": "from non-magical attacks",
+			"cond": true
+		},
+		"psychic"
+	],
+	"immune": [
+		"lightning"
+	],
+	"vulnerable": [
+		"radiant caused by reverse cursed technique"
+	],
+	"conditionImmune": [
+		"paralyzed"
+	],
+	"cr": "1/8",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"The curse has 2 cursed energy it can use to fuel its abilities. All of its cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Energy Recovery",
+			"entries": [
+				"While in combat, the curse regains 1 cursed energy at the beginning of each of its turns, up to its maximum. The combat must be one where the curse's life is at risk."
+			]
+		},
+		{
+			"name": "Cursed Attack",
+			"entries": [
+				"The curse's attacks are considered magical."
+			]
+		},
+		{
+			"name": "Invisible Force",
+			"entries": [
+				"The curse is entirely made out of cursed energy, meaning it cannot be seen by normal people. Creatures without levels in the Jujutsu Sorcerer class or who cannot see into the ethereal plane cannot see it. Although, if these creatures were in a life and death situation(less than half their maximum hit points), they gain the ability to see the curse."
+			]
+		},
+		{
+			"name": "Phasing",
+			"entries": [
+				"Due to being composed of a smaller amount of cursed energy, the curse may walk through objects and structures as if they weren't there."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit -1} to hit, reach 5 ft., one target. {@h}4 ({@damage 2d4 - 1}) piercing damage."
+			]
+		},
+		{
+			"name": "Electric Pulse (2 Cursed Energy)",
+			"entries": [
+				"The curse lets out a low voltage pulse in a 10 ft. radius. Each creature in this area must make a {@dc 10} Constitution saving throw, taking 3 ({@damage 1d6}) lightning damage and be {@condition stunned} until the end of their next turn on a failure or half the damage on a success."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"The curse can spend up to 2 Cursed Energy, regaining hit points equal to 5 times the amount spent."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"As a {@variantrule Reaction|XPHB} to suffering damage, the curse uses its Regeneration."
+			]
+		}
+	],
+	"damageTags": [
+		"L",
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"savingThrowForced": [
+		"constitution"
+	]
+},
+{
+	"name": "Bonefish",
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"T"
+	],
+	"type": {
+		"type": "undead",
+		"tags": [
+			"cursed spirit"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 8,
+			"from": [
+				"natural armor"
+			]
+		}
+	],
+	"hp": {
+		"average": 15,
+		"formula": "7d4 - 3"
+	},
+	"speed": {
+		"walk": {
+			"number": 50,
+			"condition": "fly"
+		},
+		"alternate": {
+			"walk": [
+				{
+					"number": 50,
+					"condition": "swim"
+				}
+			]
+		}
+	},
+	"str": 4,
+	"dex": 12,
+	"con": 7,
+	"int": 9,
+	"wis": 6,
+	"cha": 16,
+	"passive": 8,
+	"resist": [
+		{
+			"resist": [
+				"poison",
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"note": "from non-magical attacks",
+			"cond": true
+		},
+		"psychic"
+	],
+	"immune": [
+		"lightning"
+	],
+	"vulnerable": [
+		"radiant caused by reverse cursed technique"
+	],
+	"conditionImmune": [
+		"paralyzed"
+	],
+	"cr": "1/8",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"The curse has 2 Cursed Energy to spend on its features. All of its cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Energy Recovery",
+			"entries": [
+				"The curse gains 1 Cursed Energy at the beginning of each of its turns, up to its maximum."
+			]
+		},
+		{
+			"name": "Phasing",
+			"entries": [
+				"Due to being composed of a smaller amount of cursed energy, the curse may walk through objects and structures as if they weren't there."
+			]
+		},
+		{
+			"name": "Sea Monster",
+			"entries": [
+				"The Bone Fish has advantage on attack rolls if it's in water."
+			]
+		},
+		{
+			"name": "Invisible Force",
+			"entries": [
+				"The curse is entirely made out of cursed energy, meaning it is {@condition invisible}. Creatures with levels in the Jujutsu Sorcerer class or who can see into the Ethereal Plane can see the curse. Although, if these creatures were in a life and death situation(less than half their maximum hit points), they gain the ability to see the curse."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 3} to hit, reach 5 ft, one target. {@h}6 ({@damage 2d4 + 1}) piercing damage."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"The curse can spend up to 2 Cursed Energy, regaining hit points equal to 5 times the amount spent."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"As a {@variantrule Reaction|XPHB} to taking damage, the curse uses its Regeneration."
+			]
+		}
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"conditionInflict": [
+		"invisible"
+	]
+},
+{
+	"name": "Bonebird",
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"T"
+	],
+	"type": {
+		"type": "undead",
+		"tags": [
+			"cursed spirit"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 12,
+			"from": [
+				"natural armor"
+			]
+		}
+	],
+	"hp": {
+		"average": 21,
+		"formula": "7d4"
+	},
+	"speed": {
+		"walk": {
+			"number": 50,
+			"condition": "fly"
+		}
+	},
+	"str": 8,
+	"dex": 14,
+	"con": 10,
+	"int": 7,
+	"wis": 15,
+	"cha": 15,
+	"passive": 14,
+	"resist": [
+		"poison",
+		"psychic"
+	],
+	"immune": [
+		"lightning"
+	],
+	"vulnerable": [
+		"radiant caused by reverse cursed technique"
+	],
+	"cr": "1/8",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"The curse has 5 Cursed Energy to spend on its features. All of its cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Energy Recovery",
+			"entries": [
+				"While in combat, the curse regains 1 cursed energy at the beginning of each of its turns, up to its maximum. The combat must be one where the curse's life is at risk."
+			]
+		},
+		{
+			"name": "Phasing",
+			"entries": [
+				"Due to being composed of a smaller amount of cursed energy, the curse may walk through objects and structures as if they weren't there."
+			]
+		},
+		{
+			"name": "Prey Drive",
+			"entries": [
+				"The Bone Bird has advantage on attack rolls if it's in water."
+			]
+		},
+		{
+			"name": "Invisible Force",
+			"entries": [
+				"The curse is entirely made out of cursed energy, meaning it is {@condition invisible}. Creatures with levels in the Jujutsu Sorcerer class or who can see into the Ethereal Plane can see the curse. Although, if these creatures were in a life and death situation(less than half their maximum hit points), they gain the ability to see the curse."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 4} to hit, reach 5 ft, one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"The curse can spend up to 4 Cursed Energy, regaining hit points equal to 5 times the amount spent."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"As a {@variantrule Reaction|XPHB} to taking damage, the curse uses its Regeneration."
+			]
+		}
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"conditionInflict": [
+		"invisible"
+	]
+},
+{
+	"name": "Ashen Infant Curse",
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"S"
+	],
+	"type": {
+		"type": "undead",
+		"tags": [
+			"cursed spirit"
+		]
+	},
+	"alignment": [
+		"N",
+		"E"
+	],
+	"ac": [
+		8
+	],
+	"hp": {
+		"average": 6,
+		"formula": "4d6 - 8"
+	},
+	"speed": {
+		"walk": 5
+	},
+	"str": 4,
+	"dex": 6,
+	"con": 7,
+	"int": 9,
+	"wis": 6,
+	"cha": 16,
+	"skill": {
+		"perception": "+0",
+		"stealth": "+0"
+	},
+	"passive": 8,
+	"resist": [
+		"lightning"
+	],
+	"immune": [
+		{
+			"immune": [
+				"fire",
+				"poison",
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"note": "from non-magical attacks",
+			"cond": true
+		},
+		"psychic"
+	],
+	"vulnerable": [
+		"radiant caused by reverse cursed technique"
+	],
+	"conditionImmune": [
+		"exhaustion",
+		"paralyzed",
+		"poisoned"
+	],
+	"cr": "1/8",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"The curse has 1 cursed energy it can use to fuel its abilities. All of its cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Energy Recovery",
+			"entries": [
+				"While in combat, the curse regains 1 cursed energy at the beginning of each of its turns, up to its maximum. The combat must be one where the curse's life is at risk."
+			]
+		},
+		{
+			"name": "Magic Weapons",
+			"entries": [
+				"The Cursed Spirit's weapon attacks are magical."
+			]
+		},
+		{
+			"name": "Invisible Force",
+			"entries": [
+				"The curse is entirely made out of cursed energy, meaning it cannot be seen by normal people. Creatures without levels in the Jujutsu Sorcerer class or who cannot see into the ethereal plane cannot see it. Although, if these creatures were in a life and death situation(less than half their maximum hit points), they gain the ability to see the curse."
+			]
+		},
+		{
+			"name": "Phasing",
+			"entries": [
+				"Due to being composed of a smaller amount of cursed energy, the curse may walk through objects and structures as if they weren't there."
+			]
+		},
+		{
+			"name": "Curse of the Ashen Infant",
+			"entries": [
+				"Creatures reduced to 0 hit points by the curse will become {@condition petrified} until the end of their next turn."
+			]
+		},
+		{
+			"name": "Ashen Camouflage",
+			"entries": [
+				"The curse has advantage on Dexterity ({@skill Stealth|XPHB}) checks made to hide in dusty areas."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Smack",
+			"entries": [
+				"{@atk mw} {@hit -2} to hit, reach 5 ft., one target. {@h}2 ({@damage 2d4 - 2}) bludgeoning damage."
+			]
+		},
+		{
+			"name": "Violent Scream (1 Cursed Energy)",
+			"entries": [
+				"The curse lets out a blood-curdling shriek in a 15 ft. cone and immediately explodes in a 10 foot radius. Each creature in either area must make a {@dc 10} Constitution saving throw, taking 3 ({@damage 1d6}) psychic damage and be {@condition deafened} until the end of their next turn on a failure or half the damage on a success. The curse dies immediately after using this feature."
+			]
+		}
+	],
+	"traitTags": [
+		"Camouflage",
+		"Magic Weapons"
+	],
+	"damageTags": [
+		"B",
+		"Y"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"savingThrowForced": [
+		"constitution"
+	]
+},
+{
+	"name": "Flying Skull Curse",
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"T"
+	],
+	"type": {
+		"type": "undead",
+		"tags": [
+			"cursed spirit"
+		]
+	},
+	"alignment": [
+		"C",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 13,
+			"from": [
+				"natural armor"
+			]
+		}
+	],
+	"hp": {
+		"average": 21,
+		"formula": "6d4 + 6"
+	},
+	"speed": {
+		"fly": {
+			"number": 40,
+			"condition": "(hover)"
+		},
+		"canHover": true
+	},
+	"str": 6,
+	"dex": 16,
+	"con": 12,
+	"int": 2,
+	"wis": 10,
+	"cha": 7,
+	"skill": {
+		"stealth": "+5"
+	},
+	"senses": [
+		"Darkvision 60 ft."
+	],
+	"passive": 10,
+	"immune": [
+		{
+			"immune": [
+				"bludgeoning",
+				"piercing",
+				"slashing",
+				"poison",
+				"psychic"
+			],
+			"preNote": "non-magical"
+		}
+	],
+	"vulnerable": [
+		"radiant caused by reverse cursed technique"
+	],
+	"conditionImmune": [
+		"charmed",
+		"frightened",
+		"paralyzed",
+		"poisoned",
+		"prone"
+	],
+	"cr": "1/4",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"The curse has 4 cursed energy that it can use to fuel its abilities. All of its cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Energy Recovery",
+			"entries": [
+				"While in combat, the curse regains 1 cursed energy at the beginning of each of its turns, up to its maximum. The combat must be one where the curse's life is at risk."
+			]
+		},
+		{
+			"name": "Magic Weapons",
+			"entries": [
+				"The Cursed Spirit's weapon attacks are magical."
+			]
+		},
+		{
+			"name": "Phasing",
+			"entries": [
+				"Due to being composed of a smaller amount of cursed energy, the curse may walk through objects and structures as if they weren't there."
+			]
+		},
+		{
+			"name": "Invisible Force",
+			"entries": [
+				"The curse is entirely made out of cursed energy, meaning it cannot be seen by normal people. Creatures without levels in the Jujutsu Sorcerer class or who cannot see into the ethereal plane cannot see it. Although, if these creatures were in a life and death situation(less than half their maximum hit points), they gain the ability to see it."
+			]
+		},
+		{
+			"name": "Undead Nature",
+			"entries": [
+				"The curse has advantage on saving throws against disease and being {@condition poisoned}."
+			]
+		},
+		{
+			"name": "Pack Tactics",
+			"entries": [
+				"The curse has advantage on attack rolls against a creature if at least one of the curse's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "False Appearance",
+			"entries": [
+				"While the curse remains motionless and isn't flying, it is indistinguishable from a normal skull and it is visible to non-sorcerers when in this state. It may make its first attack against a creature with advantages if it was previously motionless."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage."
+			]
+		},
+		{
+			"name": "Scream (3 Cursed Energy)",
+			"entries": [
+				"As an action, the curse screams and forces all hostile creatures within 30 feet of it to make a {@dc 10} Wisdom saving throw. On a failure, a creature is {@condition frightened} for the next minute. They can remake the saving throw at the end of each of their turns."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"The curse can spend up to 2 Cursed Energy, regaining hit points equal to 5 times the amount spent."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"As a {@variantrule Reaction|XPHB} to suffering damage, the curse uses its Regeneration."
+			]
+		}
+	],
+	"traitTags": [
+		"False Appearance",
+		"Magic Weapons",
+		"Pack Tactics"
+	],
+	"senseTags": [
+		"D"
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"conditionInflict": [
+		"frightened"
+	],
+	"savingThrowForced": [
+		"wisdom"
+	]
+},
+{
+	"name": "Flying Hand Curse",
+	"source": "jujutsukaisen",
+	"page": 0,
+	"size": [
+		"T"
+	],
+	"type": {
+		"type": "undead",
+		"tags": [
+			"cursed spirit"
+		]
+	},
+	"alignment": [
+		"N",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 13,
+			"from": [
+				"natural armor"
+			]
+		}
+	],
+	"hp": {
+		"average": 7,
+		"formula": "2d4 + 2"
+	},
+	"speed": {
+		"walk": 30,
+		"climb": 30,
+		"fly": {
+			"number": 30,
+			"condition": "(hover)"
+		},
+		"canHover": true
+	},
+	"str": 14,
+	"dex": 16,
+	"con": 12,
+	"int": 6,
+	"wis": 12,
+	"cha": 14,
+	"skill": {
+		"athletics": "+4",
+		"stealth": "+5"
+	},
+	"senses": [
+		"blindsight 60 ft. (blind beyond this radius)"
+	],
+	"passive": 13,
+	"immune": [
+		{
+			"immune": [
+				"slashing",
+				"piercing",
+				"bludgeoning",
+				"psychic",
+				"poison"
+			],
+			"preNote": "Nonmagical"
+		}
+	],
+	"vulnerable": [
+		"radiant caused by reverse cursed technique"
+	],
+	"conditionImmune": [
+		"charmed",
+		"exhaustion",
+		"poisoned"
+	],
+	"cr": "1/4",
+	"trait": [
+		{
+			"name": "Cursed Energy",
+			"entries": [
+				"The curse has 6 cursed energy that it can use to fuel its abilities. All of its cursed energy is replenished at the end of a long rest."
+			]
+		},
+		{
+			"name": "Cursed Energy Recovery",
+			"entries": [
+				"The curse regains 1 cursed energy at the beginning of each of its turns."
+			]
+		},
+		{
+			"name": "Cursed Attack",
+			"entries": [
+				"The curse's attacks are considered magical."
+			]
+		},
+		{
+			"name": "Invisible Force",
+			"entries": [
+				"The curse is entirely made out of cursed energy, meaning it is {@condition invisible}. Creatures with levels in the Jujutsu Sorcerer class or who can see into the Ethereal Plane can see the curse. Although, if these creatures were in a life and death situation(less than half their maximum hit points), they gain the ability to see it."
+			]
+		},
+		{
+			"name": "Undead Nature",
+			"entries": [
+				"The curse doesn't need to eat, drink, or breathe. It doesn't need to sleep. It has advantage on saving throws against disease and being {@condition poisoned}."
+			]
+		},
+		{
+			"name": "Phasing",
+			"entries": [
+				"Due to being composed of a smaller amount of cursed energy, the curse may walk through objects and structures as if they weren't there."
+			]
+		},
+		{
+			"name": "Pack Tactics",
+			"entries": [
+				"The curse has advantage on an attack roll against a creature if at least one of the curse's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Fist",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning or slashing damage (curse's choice)."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"The curse can spend up to 4 Cursed Energy, regaining hit points equal to 5 times the amount spent."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Regeneration",
+			"entries": [
+				"As a {@variantrule Reaction|XPHB} to suffering damage, the curse uses its Regeneration."
+			]
+		},
+		{
+			"name": "Mass Pin",
+			"entries": [
+				"As a {@variantrule Reaction|XPHB} to another {@variantrule Flying|XPHB} Hand {@variantrule Curses|XPHB|Curse} taking either the grapple or shove attacks against a creature, the curse can assist with the attack. Every 2 curses participating in a grapple or shove attack through this reaction adds a +1 to the check for the attack. Additionally, every 5 curses participating in a grapple or shove attack through this reaction increase what the size category counts as the sake of the attack by one up to a maximum of Gargantuan.",
+				"Every curse participating in a grapple or shove attack through this reaction is considered to be grappling the creature for the sake of holding and escaping the grapple."
+			]
+		}
+	],
+	"traitTags": [
+		"Pack Tactics"
+	],
+	"senseTags": [
+		"B"
+	],
+	"damageTags": [
+		"B",
+		"S"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"conditionInflict": [
+		"invisible"
+	]
+},
   {
 	"name": "Panda (Panda Core)",
 	"isNamedCreature": true,
